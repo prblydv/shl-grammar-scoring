@@ -1,10 +1,14 @@
 # SHL Grammar Scoring
 
+![Recorded rank, public RMSE, and training-data development RMSE](docs/assets/results_card.svg)
 
 **Training-data evaluation RMSE: 0.477589*** · **3 grouped folds** · **769 labelled recordings**  
-**Recorded public leaderboard RMSE: 0.3141**
+**Recorded public leaderboard RMSE: 0.3141 · Recorded public rank: 5th**
 
-*The training-data figure is the pooled RMSE of the final ensemble's cross-fitted meta-development predictions across all three folds. It is not an in-sample training-fit score. Base OOF features were frozen, the full pipeline was not retrained inside every meta-fold, and final blend weights were selected using public feedback. This is a development estimate, not an independent generalization guarantee. Mean fold RMSE is 0.477121; pooled RMSE is the main reported figure. End-to-end in-sample training RMSE was not recorded.*
+**Write-up updated: 15 October 2026 at 23:19 BST (22:19 UTC).** The rank refers to the saved 15 October leaderboard snapshot; its exact capture time was not retained. This timestamp dates the write-up, not a fresh leaderboard check.
+
+> [!NOTE]
+> *The training-data figure is the pooled RMSE of the final ensemble's cross-fitted meta-development predictions across all three folds. It is not an in-sample training-fit score. Base OOF features were frozen, the full pipeline was not retrained inside every meta-fold, and final blend weights were selected using public feedback. This is a development estimate, not an independent generalization guarantee. Mean fold RMSE is 0.477121; pooled RMSE is the main reported figure. End-to-end in-sample training RMSE was not recorded.*
 
 **Final submission notebook:** [final_submission.ipynb](final_submission.ipynb) includes the approach, preprocessing, architecture, evaluation report, fold scores, and code to verify the metric and reconstruct the submission from private archived predictions.
 
@@ -39,7 +43,10 @@
    | 11-model quadratic/kernel ensemble | 0.47893, meta-development | 0.3166 |
    | Experimental hurdle/joint blend | 0.47759, meta-development | **0.3141** |
 
-   The last result reached **5th place at the recorded 15 October 2026 snapshot**. It is the lowest observed public RMSE in my records. I do **not** treat it as my strongest evidence of generalization: it explicitly models the zero/nonzero distinction in a dataset with unusual zero-labelled examples, and its final mixture was selected using public feedback. The private score is unknown. The non-hurdle ensemble is retained as an important comparison. Local and public scores evaluate different populations; early six-fold baselines and later grouped three-fold experiments also use different protocols.
+   > [!IMPORTANT]
+   > **Recorded public result: 0.3141 RMSE · 5th place** at the saved 15 October 2026 snapshot. This is the lowest observed public RMSE in my records; private performance is unknown.
+
+   I do **not** treat it as my strongest evidence of generalization: it explicitly models the zero/nonzero distinction in a dataset with unusual zero-labelled examples, and its final mixture was selected using public feedback. The private score is unknown. The non-hurdle ensemble is retained as an important comparison. Local and public scores evaluate different populations; early six-fold baselines and later grouped three-fold experiments also use different protocols.
 
 3. **The pipeline at a glance.**
 
