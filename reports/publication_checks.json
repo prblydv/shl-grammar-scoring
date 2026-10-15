@@ -1,0 +1,18 @@
+{
+  "publication_validation": {
+    "python_syntax_files": 303,
+    "notebook_schemas": 24,
+    "source_hashes": 328,
+    "local_links": "checked by scripts/validate_publication.py"
+  },
+  "integration_check": "Existing test_spectrogram.py passed with generated tiny CPU models: modalities, gradients, fold-local normalization, exact CV/full-data resume, inference and metadata/export. No competition training.",
+  "final_prediction_reconstruction": {
+    "rows": 216,
+    "absolute_tolerance": 1e-10,
+    "result": "All reconstructed predictions match the private archived 0.3141 submission within tolerance.",
+    "csv_byte_identity": false,
+    "note": "Numeric-library differences changed final CSV bytes; the original archived file was left unchanged."
+  },
+  "charts": "Five SVG/PNG figures regenerated from aggregate evidence.",
+  "credentials_scan": "No GitHub, Hugging Face, Kaggle token patterns or private-key blocks found."
+}

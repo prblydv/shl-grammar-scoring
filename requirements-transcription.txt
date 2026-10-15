@@ -1,0 +1,6 @@
+-r requirements.txt
+transformers==4.57.6
+openai-whisper
+accelerate
+sentencepiece
+webrtcvad-wheels

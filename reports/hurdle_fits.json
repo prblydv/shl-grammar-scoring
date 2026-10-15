@@ -1,0 +1,92 @@
+{
+  "hurdle_regression": {
+    "rmse": 0.4795305928969371,
+    "outer_fits": [
+      {
+        "selected": {
+          "family": "hurdle_regression",
+          "alpha": 10.0,
+          "degree": 2,
+          "C": 10.0
+        },
+        "inner_rmse": 0.490205527456426,
+        "candidates": 18
+      },
+      {
+        "selected": {
+          "family": "hurdle_regression",
+          "alpha": 10.0,
+          "degree": 1,
+          "C": 10.0
+        },
+        "inner_rmse": 0.4746400634041784,
+        "candidates": 18
+      },
+      {
+        "selected": {
+          "family": "hurdle_regression",
+          "alpha": 100.0,
+          "degree": 2,
+          "C": 10.0
+        },
+        "inner_rmse": 0.47539986070469153,
+        "candidates": 18
+      }
+    ],
+    "full_fit": {
+      "selected": {
+        "family": "hurdle_regression",
+        "alpha": 10.0,
+        "degree": 1,
+        "C": 10.0
+      },
+      "inner_rmse": 0.4853709859324752,
+      "candidates": 18
+    }
+  },
+  "hurdle_kernel": {
+    "rmse": 0.491187736491793,
+    "outer_fits": [
+      {
+        "selected": {
+          "family": "hurdle_kernel",
+          "alpha": 3.0,
+          "gamma": 0.3,
+          "C": 10.0
+        },
+        "inner_rmse": 0.49071860538133577,
+        "candidates": 18
+      },
+      {
+        "selected": {
+          "family": "hurdle_kernel",
+          "alpha": 3.0,
+          "gamma": 0.3,
+          "C": 10.0
+        },
+        "inner_rmse": 0.46825158339971495,
+        "candidates": 18
+      },
+      {
+        "selected": {
+          "family": "hurdle_kernel",
+          "alpha": 0.3,
+          "gamma": 0.03,
+          "C": 10.0
+        },
+        "inner_rmse": 0.4770225314450396,
+        "candidates": 18
+      }
+    ],
+    "full_fit": {
+      "selected": {
+        "family": "hurdle_kernel",
+        "alpha": 30.0,
+        "gamma": 0.3,
+        "C": 10.0
+      },
+      "inner_rmse": 0.4868499111687803,
+      "candidates": 18
+    }
+  }
+}

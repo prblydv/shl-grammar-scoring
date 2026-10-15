@@ -1,0 +1,27 @@
+# Private competition inputs and generated results
+data/
+artifacts/
+outputs/
+runs/
+model_cache/
+*.h5
+*.hdf5
+*.parquet
+*.npz
+*.npy
+*.wav
+*.pt
+*.pth
+*.safetensors
+*.zip
+# Local environments and credentials
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+kaggle.json
+*.pem
+*.key

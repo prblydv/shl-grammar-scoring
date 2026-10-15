@@ -1,0 +1,2245 @@
+[
+  {
+    "path": "experiments/vast_text/configurable_v4/audio_features.py",
+    "source": "AST run embedded source_code/audio_features.py",
+    "source_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "published_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/batch_probe.py",
+    "source": "AST run embedded source_code/batch_probe.py",
+    "source_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "published_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/deliver_backup.py",
+    "source": "AST run embedded source_code/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "75785ccb2f50a4f7a1b87a82e3f6a74053566f87a5347fde2406a2ec6be092b0",
+    "publication_edit": "Replaced historical SSH destination with a placeholder."
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/full_data_train.py",
+    "source": "AST run embedded source_code/full_data_train.py",
+    "source_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "published_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/pipeline.py",
+    "source": "AST run embedded source_code/pipeline.py",
+    "source_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18",
+    "published_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/pooling.py",
+    "source": "AST run embedded source_code/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/publish_full_model.py",
+    "source": "AST run embedded source_code/publish_full_model.py",
+    "source_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "published_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/publish_kaggle.py",
+    "source": "AST run embedded source_code/publish_kaggle.py",
+    "source_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "published_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/runner.py",
+    "source": "AST run embedded source_code/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/spectrogram_features.py",
+    "source": "AST run embedded source_code/spectrogram_features.py",
+    "source_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d",
+    "published_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/sweep_utils.py",
+    "source": "AST run embedded source_code/sweep_utils.py",
+    "source_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "published_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/telemetry.py",
+    "source": "AST run embedded source_code/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/test_configurable.py",
+    "source": "AST run embedded source_code/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/test_full_data.py",
+    "source": "AST run embedded source_code/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/test_pipeline.py",
+    "source": "AST run embedded source_code/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/test_spectrogram.py",
+    "source": "AST run embedded source_code/test_spectrogram.py",
+    "source_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "published_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/train_worker.py",
+    "source": "AST run embedded source_code/train_worker.py",
+    "source_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1",
+    "published_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/verify_backup.py",
+    "source": "AST run embedded source_code/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55"
+  },
+  {
+    "path": "experiments/vast_text/notebook_controls.py",
+    "source": "AST run embedded source_code/notebook_controls.py",
+    "source_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f",
+    "published_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f"
+  },
+  {
+    "path": "experiments/vast_text/run_metadata.py",
+    "source": "AST run embedded source_code/run_metadata.py",
+    "source_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c",
+    "published_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c"
+  },
+  {
+    "path": "experiments/vast_text/train_and_submit.ipynb",
+    "source": "AST run embedded source_code/train_and_submit.ipynb",
+    "source_sha256": "2b3d4ba314f367c91ee0438f30a245f1676491bacbe15391e104cee2d55c2cb1",
+    "published_sha256": "bd6ac5da6999f5f4f0ee957e66ec193cae8b3aa629eb3cff229a71673efc172b"
+  },
+  {
+    "path": "experiments/audio_channels/channel_runtime.py",
+    "source": "experiments/audio_channels/channel_runtime.py",
+    "source_sha256": "bcd9d8d4b1e6fc3d420fc5a2fb21dfd8461e7c8496c70e08bdf37b563a4629ff",
+    "published_sha256": "bcd9d8d4b1e6fc3d420fc5a2fb21dfd8461e7c8496c70e08bdf37b563a4629ff"
+  },
+  {
+    "path": "experiments/audio_channels/check_performance_update.py",
+    "source": "experiments/audio_channels/check_performance_update.py",
+    "source_sha256": "de1bd2d8aba1b31fcb60de344bfce08ae90205e8d963f17611946179da851d1f",
+    "published_sha256": "de1bd2d8aba1b31fcb60de344bfce08ae90205e8d963f17611946179da851d1f"
+  },
+  {
+    "path": "experiments/audio_channels/shl_all_audio_channels.ipynb",
+    "source": "experiments/audio_channels/shl_all_audio_channels.ipynb",
+    "source_sha256": "2e9cf01b2f5d3c19b798059a43dae64e463e04657fa871b83c4744400c8654b6",
+    "published_sha256": "b6ebc1770db2f92e0b951d4d7957c4af4237370aae8acfcfedb0e99a17143a8c"
+  },
+  {
+    "path": "experiments/audio_channels/shl_all_audio_channels_fast.ipynb",
+    "source": "experiments/audio_channels/shl_all_audio_channels_fast.ipynb",
+    "source_sha256": "dd515f0ce711df38b8830607cdd34463339b5d1b4009e844f8dbb03a8eae3796",
+    "published_sha256": "3869bcb4b359638bfbff4d852bb6eb705cb8f7790fa846d3086fa7fe5ee94b3b"
+  },
+  {
+    "path": "experiments/spectrogram_time/check_fixtures.py",
+    "source": "experiments/spectrogram_time/check_fixtures.py",
+    "source_sha256": "e09d219131c48f1ff0ad210f809ca98b16ab4fa49e0649e8e473739b03dbea50",
+    "published_sha256": "e09d219131c48f1ff0ad210f809ca98b16ab4fa49e0649e8e473739b03dbea50"
+  },
+  {
+    "path": "experiments/spectrogram_time/extract_spectrograms.py",
+    "source": "experiments/spectrogram_time/extract_spectrograms.py",
+    "source_sha256": "16e12901a175bec38bc9fde964ab96e485ce6c974c52018f1a0bef207e1ba39c",
+    "published_sha256": "16e12901a175bec38bc9fde964ab96e485ce6c974c52018f1a0bef207e1ba39c"
+  },
+  {
+    "path": "experiments/spectrogram_time/requirements.txt",
+    "source": "experiments/spectrogram_time/requirements.txt",
+    "source_sha256": "2dac3195801effc65958cfaf3f53589042cd8f91f649aa27c89cf662ebceb19c",
+    "published_sha256": "2dac3195801effc65958cfaf3f53589042cd8f91f649aa27c89cf662ebceb19c"
+  },
+  {
+    "path": "experiments/spectrogram_time/shl_spectrogram_time.ipynb",
+    "source": "experiments/spectrogram_time/shl_spectrogram_time.ipynb",
+    "source_sha256": "f44b94274ce6383a51bcf0d836ab7b37f6b59a4fcb1b15ca252a3782e5b5143a",
+    "published_sha256": "f40ac739c5c7de7d0480506c8ee9f8149e5d8bc299afbaf50c676dac46392591"
+  },
+  {
+    "path": "experiments/crisper_whisper/crisper_runtime.py",
+    "source": "experiments/crisper_whisper/crisper_runtime.py",
+    "source_sha256": "eca17492b1f76ac6d9659115a676c244fb92143b1d1261924d6a84cbb01aa1b8",
+    "published_sha256": "eca17492b1f76ac6d9659115a676c244fb92143b1d1261924d6a84cbb01aa1b8"
+  },
+  {
+    "path": "experiments/crisper_whisper/crisper_whisper_transcription.ipynb",
+    "source": "experiments/crisper_whisper/crisper_whisper_transcription.ipynb",
+    "source_sha256": "4b80fcc59bbd630c8c2b63be96da217919ce925cc00e07ca79eddf3c1e88728f",
+    "published_sha256": "d8f43d24320806c97872a184d696329d3eaf6ae1475be440cb7491bf7351399c"
+  },
+  {
+    "path": "experiments/crisper_whisper_fast/crisper_whisper_fast_transcription.ipynb",
+    "source": "experiments/crisper_whisper_fast/crisper_whisper_fast_transcription.ipynb",
+    "source_sha256": "fc84dac1508e551b1a3e1c6d7b9a342459a98b087ea5e5020ba47fe414dedfb1",
+    "published_sha256": "d32673025e040a4d5c5660cca1a525826cd6d3e5d46a236014c4bae2cf5a1129"
+  },
+  {
+    "path": "experiments/whisper_large_v3/whisper_large_v3_transcription.ipynb",
+    "source": "experiments/whisper_large_v3/whisper_large_v3_transcription.ipynb",
+    "source_sha256": "554d6bb5a6c0ddc6ab3786fef0f053d7f81936a2a151fbcfe26178e0268eb511",
+    "published_sha256": "d8d4a8b264cac73b6eaba0df9cf951fc9fe7194b01a3d1e05778a61b78d8b510"
+  },
+  {
+    "path": "experiments/tfidf_ridge/tfidf_ridge_baseline.ipynb",
+    "source": "experiments/tfidf_ridge/tfidf_ridge_baseline.ipynb",
+    "source_sha256": "4f8b744fdb902459fe5e01c362b4cc8fd0012581821dd49daf1a293a0875d2fb",
+    "published_sha256": "184e06599c537beabb22dcc49a084eefeeebda5bb4aa62d2a6dfd073b594cffd"
+  },
+  {
+    "path": "experiments/tfidf_ridge_large_v3/tfidf_ridge_large_v3.ipynb",
+    "source": "experiments/tfidf_ridge_large_v3/tfidf_ridge_large_v3.ipynb",
+    "source_sha256": "81dc0f2821e96b48d817f2cbf287fb8594c95397c3178923e30c15d0bfcf56d8",
+    "published_sha256": "15695165c236286b99e06fa23da3b9f0780483117d6f07dde1d130ea44e016db",
+    "publication_edit": "Replaced machine-specific local paths with home-relative or repository-relative paths; notebook outputs/execution metadata cleared."
+  },
+  {
+    "path": "experiments/whisper_small/transcribe.ipynb",
+    "source": "notebook8c924739f9.ipynb",
+    "source_sha256": "9b3b266e24f21d8ea44df252f379dd41985997663ed7bb52bd7008c76acab587",
+    "published_sha256": "9b3b266e24f21d8ea44df252f379dd41985997663ed7bb52bd7008c76acab587"
+  },
+  {
+    "path": "requirements-training.txt",
+    "source": "experiments/vast_text/requirements.txt",
+    "source_sha256": "138d4085e7f969c1cd12ec5b874148d3f738ff0a51464f6744e2c740046836be",
+    "published_sha256": "138d4085e7f969c1cd12ec5b874148d3f738ff0a51464f6744e2c740046836be"
+  },
+  {
+    "path": "scripts/research_hurdle_rmse_20261015.py",
+    "source": "scripts/research_hurdle_rmse_20261015.py",
+    "source_sha256": "4c62f983711076f605ed167a825a8092f6b44efcef6754878cd2fc312924a9c5",
+    "published_sha256": "4c62f983711076f605ed167a825a8092f6b44efcef6754878cd2fc312924a9c5"
+  },
+  {
+    "path": "scripts/optimize_all_metadata_ensembles_20261015.py",
+    "source": "scripts/optimize_all_metadata_ensembles_20261015.py",
+    "source_sha256": "801a1afdbca6796605c1e3a39834d842fd2287d14157fd32beb21efaca397c40",
+    "published_sha256": "801a1afdbca6796605c1e3a39834d842fd2287d14157fd32beb21efaca397c40"
+  },
+  {
+    "path": "scripts/create_fixed_hurdle_submissions_20261015.py",
+    "source": "scripts/create_fixed_hurdle_submissions_20261015.py",
+    "source_sha256": "96f42b75f170f63952a7ee1d2d6090b9d5ff82058cba4a233926d9bcab57bf2b",
+    "published_sha256": "96f42b75f170f63952a7ee1d2d6090b9d5ff82058cba4a233926d9bcab57bf2b"
+  },
+  {
+    "path": "scripts/research_rmse_ensembles_20261015.py",
+    "source": "scripts/research_rmse_ensembles_20261015.py",
+    "source_sha256": "5396bc072ab4a45a7ec8954e44719cbb24ae36412133bbfc4185fe8cbff2249c",
+    "published_sha256": "5396bc072ab4a45a7ec8954e44719cbb24ae36412133bbfc4185fe8cbff2249c"
+  },
+  {
+    "path": "scripts/ensemble_latest_metadata_20261015.py",
+    "source": "scripts/ensemble_latest_metadata_20261015.py",
+    "source_sha256": "c49c4492f0bb7d97c1f7eba013af75381ee92d9e412c87511d9db56b1df59301",
+    "published_sha256": "c49c4492f0bb7d97c1f7eba013af75381ee92d9e412c87511d9db56b1df59301"
+  },
+  {
+    "path": "scripts/create_regression_ensembles.py",
+    "source": "scripts/create_regression_ensembles.py",
+    "source_sha256": "c9f8363c86867102557f944e990d21cb67147ac63fe74a6bfb66807ce499dc1e",
+    "published_sha256": "c9f8363c86867102557f944e990d21cb67147ac63fe74a6bfb66807ce499dc1e"
+  },
+  {
+    "path": "scripts/investigate_regression_ensembles.py",
+    "source": "scripts/investigate_regression_ensembles.py",
+    "source_sha256": "5672c17fb78f6171482f9ddb1bcf8c5f61dc40bd4c84f2c27eee6ff748b67a9f",
+    "published_sha256": "5672c17fb78f6171482f9ddb1bcf8c5f61dc40bd4c84f2c27eee6ff748b67a9f"
+  },
+  {
+    "path": "scripts/research_ast_errors.py",
+    "source": "scripts/research_ast_errors.py",
+    "source_sha256": "d03cdff1697ecac8c2becd1f9b6b4850be6fb4a6047b4599584595b68d6e517a",
+    "published_sha256": "d03cdff1697ecac8c2becd1f9b6b4850be6fb4a6047b4599584595b68d6e517a"
+  },
+  {
+    "path": "scripts/analyze_architecture_errors.py",
+    "source": "scripts/analyze_architecture_errors.py",
+    "source_sha256": "9e28e14b7e351f25e02933d223296c277056d7f4aa91fe73c38b2cc68c5f8a4e",
+    "published_sha256": "9e28e14b7e351f25e02933d223296c277056d7f4aa91fe73c38b2cc68c5f8a4e"
+  },
+  {
+    "path": "scripts/analyze_score_patterns.py",
+    "source": "scripts/analyze_score_patterns.py",
+    "source_sha256": "1047a14de2f1fe27cc15d0b4c4b06ebee5429158efdb7cd1cef0b12a11f8bc4a",
+    "published_sha256": "1047a14de2f1fe27cc15d0b4c4b06ebee5429158efdb7cd1cef0b12a11f8bc4a"
+  },
+  {
+    "path": "scripts/analyze_zero_labels.py",
+    "source": "scripts/analyze_zero_labels.py",
+    "source_sha256": "411cfcaba2b74fe4d490ffa3c8669d4d2a297669c083f67559b34487668c0a46",
+    "published_sha256": "411cfcaba2b74fe4d490ffa3c8669d4d2a297669c083f67559b34487668c0a46"
+  },
+  {
+    "path": "scripts/analyze_zero_audio.py",
+    "source": "scripts/analyze_zero_audio.py",
+    "source_sha256": "0a765ffaa8eab783490b276eb09806d70c86133680a8623f2b43a46be79580d6",
+    "published_sha256": "0a765ffaa8eab783490b276eb09806d70c86133680a8623f2b43a46be79580d6"
+  },
+  {
+    "path": "scripts/analyze_transcript_changes.py",
+    "source": "scripts/analyze_transcript_changes.py",
+    "source_sha256": "60fb11362d1c0c3352a652f16eb00311681b30bb7dcb8679ec427bcb20336636",
+    "published_sha256": "60fb11362d1c0c3352a652f16eb00311681b30bb7dcb8679ec427bcb20336636"
+  },
+  {
+    "path": "scripts/compare_whisper_transcripts.py",
+    "source": "scripts/compare_whisper_transcripts.py",
+    "source_sha256": "c16fa289f48900cdbde4b7a0f4eb7939041e3629ecd412f9a5c5cbbeb9a95b46",
+    "published_sha256": "c16fa289f48900cdbde4b7a0f4eb7939041e3629ecd412f9a5c5cbbeb9a95b46"
+  },
+  {
+    "path": "scripts/analyze_crisper_downloads.py",
+    "source": "scripts/analyze_crisper_downloads.py",
+    "source_sha256": "55ff730d3de9791920d5242e5b75bbdb38d0bbfd762248b3655b4b8a6707d019",
+    "published_sha256": "0e0b8018b79d0ab6d7ebf616345ff202ecbc39dabd9a408d6fcc24cd5cfce767",
+    "publication_edit": "Replaced machine-specific local paths with home-relative or repository-relative paths; notebook outputs/execution metadata cleared."
+  },
+  {
+    "path": "configs/ast_original_settings.py",
+    "source": "artifacts/recovered_ast_config_20261014/original_settings_seed42.py",
+    "source_sha256": "b5c645657150935f6c7f0587da913b3cf09f7256338f8ea8542729c82df6cf63",
+    "published_sha256": "b5c645657150935f6c7f0587da913b3cf09f7256338f8ea8542729c82df6cf63"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/first_run.json",
+    "source": "archived final_v4.tgz/configurable_v4/first_run.json",
+    "source_sha256": "22fa0573006c59c0dc329eb278a8c79fbed4093c5870979659abc729258dbc02",
+    "published_sha256": "22fa0573006c59c0dc329eb278a8c79fbed4093c5870979659abc729258dbc02"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/requirements.txt",
+    "source": "archived final_v4.tgz/configurable_v4/requirements.txt",
+    "source_sha256": "abc71316ff1e2481fba0e9da8590ec0cde300751a16c9fa64f8e5971ce1b2512",
+    "published_sha256": "abc71316ff1e2481fba0e9da8590ec0cde300751a16c9fa64f8e5971ce1b2512"
+  },
+  {
+    "path": "experiments/vast_text/configurable_v4/README.md",
+    "source": "archived final_v4.tgz/configurable_v4/README.md",
+    "source_sha256": "b28b02271f6461396057717de49ba29301e589c1399b03d43ef6d6c71501b803",
+    "published_sha256": "b28b02271f6461396057717de49ba29301e589c1399b03d43ef6d6c71501b803"
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/runner.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/publish_kaggle.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/publish_kaggle.py",
+    "source_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "published_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/batch_probe.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/batch_probe.py",
+    "source_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "published_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/train_worker.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/train_worker.py",
+    "source_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "published_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/pooling.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/telemetry.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/test_configurable.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/pipeline.py",
+    "source_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "published_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/publish_full_model.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/publish_full_model.py",
+    "source_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "published_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/deliver_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/test_full_data.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/full_data_train.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/full_data_train.py",
+    "source_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "published_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/test_pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/sweep_utils.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/sweep_utils.py",
+    "source_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "published_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/verify_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/notebook_controls.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/notebook_controls.py",
+    "source_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "published_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/run_metadata.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/efcca0bafa9f/train_and_submit.ipynb",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm/train_and_submit.ipynb",
+    "source_sha256": "15c03604dcaeed8a71ba6d8eb1839b345e71c0bc1147b758ac7a1e429c29fb35",
+    "published_sha256": "7f6817e99092678527d414f5729f6e8ddda1f813eb9c3438bbd4eebf76b1ce35",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/audio_features.py",
+    "source": "embedded source in firstaudioonlysimplemlp/audio_features.py",
+    "source_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "published_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/batch_probe.py",
+    "source": "embedded source in firstaudioonlysimplemlp/batch_probe.py",
+    "source_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "published_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/deliver_backup.py",
+    "source": "embedded source in firstaudioonlysimplemlp/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/full_data_train.py",
+    "source": "embedded source in firstaudioonlysimplemlp/full_data_train.py",
+    "source_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "published_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/pipeline.py",
+    "source": "embedded source in firstaudioonlysimplemlp/pipeline.py",
+    "source_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "published_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/pooling.py",
+    "source": "embedded source in firstaudioonlysimplemlp/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/publish_full_model.py",
+    "source": "embedded source in firstaudioonlysimplemlp/publish_full_model.py",
+    "source_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "published_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/publish_kaggle.py",
+    "source": "embedded source in firstaudioonlysimplemlp/publish_kaggle.py",
+    "source_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "published_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/runner.py",
+    "source": "embedded source in firstaudioonlysimplemlp/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/sweep_utils.py",
+    "source": "embedded source in firstaudioonlysimplemlp/sweep_utils.py",
+    "source_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "published_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/telemetry.py",
+    "source": "embedded source in firstaudioonlysimplemlp/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/test_configurable.py",
+    "source": "embedded source in firstaudioonlysimplemlp/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/test_full_data.py",
+    "source": "embedded source in firstaudioonlysimplemlp/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/test_pipeline.py",
+    "source": "embedded source in firstaudioonlysimplemlp/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/train_worker.py",
+    "source": "embedded source in firstaudioonlysimplemlp/train_worker.py",
+    "source_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "published_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/verify_backup.py",
+    "source": "embedded source in firstaudioonlysimplemlp/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/notebook_controls.py",
+    "source": "embedded source in firstaudioonlysimplemlp/notebook_controls.py",
+    "source_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "published_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/run_metadata.py",
+    "source": "embedded source in firstaudioonlysimplemlp/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/e0d55e1f8b29/train_and_submit.ipynb",
+    "source": "embedded source in firstaudioonlysimplemlp/train_and_submit.ipynb",
+    "source_sha256": "354b8a1e354f8458cd46ba23f6808f6f0b5e19208b95b03291c01a7fd7b59070",
+    "published_sha256": "c053c31b0832fa41bbe44bf1b072fae6ef907f13e50a496dd6eee3d6664ea5cb",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/audio_features.py",
+    "source": "embedded source in firstaudioronlysimplemflp/audio_features.py",
+    "source_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "published_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/batch_probe.py",
+    "source": "embedded source in firstaudioronlysimplemflp/batch_probe.py",
+    "source_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "published_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/deliver_backup.py",
+    "source": "embedded source in firstaudioronlysimplemflp/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/full_data_train.py",
+    "source": "embedded source in firstaudioronlysimplemflp/full_data_train.py",
+    "source_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "published_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/pipeline.py",
+    "source": "embedded source in firstaudioronlysimplemflp/pipeline.py",
+    "source_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "published_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/pooling.py",
+    "source": "embedded source in firstaudioronlysimplemflp/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/publish_full_model.py",
+    "source": "embedded source in firstaudioronlysimplemflp/publish_full_model.py",
+    "source_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "published_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/publish_kaggle.py",
+    "source": "embedded source in firstaudioronlysimplemflp/publish_kaggle.py",
+    "source_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "published_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/runner.py",
+    "source": "embedded source in firstaudioronlysimplemflp/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/sweep_utils.py",
+    "source": "embedded source in firstaudioronlysimplemflp/sweep_utils.py",
+    "source_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "published_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/telemetry.py",
+    "source": "embedded source in firstaudioronlysimplemflp/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/test_configurable.py",
+    "source": "embedded source in firstaudioronlysimplemflp/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/test_full_data.py",
+    "source": "embedded source in firstaudioronlysimplemflp/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/test_pipeline.py",
+    "source": "embedded source in firstaudioronlysimplemflp/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/train_worker.py",
+    "source": "embedded source in firstaudioronlysimplemflp/train_worker.py",
+    "source_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "published_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/verify_backup.py",
+    "source": "embedded source in firstaudioronlysimplemflp/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/notebook_controls.py",
+    "source": "embedded source in firstaudioronlysimplemflp/notebook_controls.py",
+    "source_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "published_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/run_metadata.py",
+    "source": "embedded source in firstaudioronlysimplemflp/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5361e631e1f8/train_and_submit.ipynb",
+    "source": "embedded source in firstaudioronlysimplemflp/train_and_submit.ipynb",
+    "source_sha256": "493c2af55019cc31f935c35ef072c95b7924e877c637af58bd8fba20be43f763",
+    "published_sha256": "b7e2a011daf31461563761dc5e9621d6f6a606bcab81e66bbefed9f9abfc57e1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/runner.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/publish_kaggle.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/publish_kaggle.py",
+    "source_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "published_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/batch_probe.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/batch_probe.py",
+    "source_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "published_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/spectrogram_features.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/spectrogram_features.py",
+    "source_sha256": "c8dd11b1ae4a094d4311c820d65c2e67a145918f06aed153c6851d066f7d319b",
+    "published_sha256": "c8dd11b1ae4a094d4311c820d65c2e67a145918f06aed153c6851d066f7d319b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/train_worker.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/train_worker.py",
+    "source_sha256": "93569fc37b6c02c38ec58403f116e0ec538d75ac70247f10363ad68ee3091f42",
+    "published_sha256": "93569fc37b6c02c38ec58403f116e0ec538d75ac70247f10363ad68ee3091f42",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/pooling.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/telemetry.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/audio_features.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/audio_features.py",
+    "source_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "published_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/test_configurable.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/test_spectrogram.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/test_spectrogram.py",
+    "source_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "published_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/pipeline.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/pipeline.py",
+    "source_sha256": "30ed0afee3e3f16157e22b6d7d8f3ec1319693250c4d6e23003ddc75f13ac396",
+    "published_sha256": "30ed0afee3e3f16157e22b6d7d8f3ec1319693250c4d6e23003ddc75f13ac396",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/publish_full_model.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/publish_full_model.py",
+    "source_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "published_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/deliver_backup.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/test_full_data.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/full_data_train.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/full_data_train.py",
+    "source_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "published_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/test_pipeline.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/sweep_utils.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/sweep_utils.py",
+    "source_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "published_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/verify_backup.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/notebook_controls.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/notebook_controls.py",
+    "source_sha256": "8475cc0aba032c40bdebc07d0f9ead01985607e27269bfaea98a6c2dc928741b",
+    "published_sha256": "8475cc0aba032c40bdebc07d0f9ead01985607e27269bfaea98a6c2dc928741b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/run_metadata.py",
+    "source": "embedded source in spectrogram_cnn_small_run01/run_metadata.py",
+    "source_sha256": "588715a1b290caa6f9346beb0108cc3fe038edf8f4be53d01538d60ef3f9d3a8",
+    "published_sha256": "588715a1b290caa6f9346beb0108cc3fe038edf8f4be53d01538d60ef3f9d3a8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b1e0ccbb5330/train_and_submit.ipynb",
+    "source": "embedded source in spectrogram_cnn_small_run01/train_and_submit.ipynb",
+    "source_sha256": "4c3714bbac4520a614e771d1a1a863a0bdb11a591bfbbd5a71ceeca468de6d4f",
+    "published_sha256": "44f1477bde8e489a2a2f8882bdf318224cfb7191f279a69c63ec1adec18857bc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/runner.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/publish_kaggle.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/publish_kaggle.py",
+    "source_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "published_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/batch_probe.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/batch_probe.py",
+    "source_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "published_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/train_worker.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/train_worker.py",
+    "source_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "published_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/pooling.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/telemetry.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/test_configurable.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/pipeline.py",
+    "source_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "published_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/publish_full_model.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/publish_full_model.py",
+    "source_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "published_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/deliver_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/test_full_data.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/full_data_train.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/full_data_train.py",
+    "source_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "published_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/test_pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/sweep_utils.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/sweep_utils.py",
+    "source_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "published_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/verify_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/notebook_controls.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/notebook_controls.py",
+    "source_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "published_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/run_metadata.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/2800ab6c43d0/train_and_submit.ipynb",
+    "source": "embedded source in crisper_debertav2xlarge_20epochs/train_and_submit.ipynb",
+    "source_sha256": "67c062616b6984d6fb4ecbfef39faebc8d4c893bccd35b319cdaf418c6e8df67",
+    "published_sha256": "dcddef2304110b599573f575e8b741b09a355f7145cbfbd255eaaf4d454d91c4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/runner.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/loader_utils.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/loader_utils.py",
+    "source_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "published_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/publish_kaggle.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/publish_kaggle.py",
+    "source_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "published_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/batch_probe.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/batch_probe.py",
+    "source_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "published_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/spectrogram_features.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/spectrogram_features.py",
+    "source_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "published_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/train_worker.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/train_worker.py",
+    "source_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "published_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/pooling.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/waveform_features.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/waveform_features.py",
+    "source_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "published_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/telemetry.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/backbone_registry.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/backbone_registry.py",
+    "source_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "published_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/audio_features.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/audio_features.py",
+    "source_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "published_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/pipeline.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/pipeline.py",
+    "source_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "published_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/publish_full_model.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/publish_full_model.py",
+    "source_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "published_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/deliver_backup.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/full_data_train.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/full_data_train.py",
+    "source_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "published_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/sweep_utils.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/sweep_utils.py",
+    "source_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "published_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/verify_backup.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/notebook_controls.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/notebook_controls.py",
+    "source_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "published_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/run_metadata.py",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/run_metadata.py",
+    "source_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "published_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/db1a6645df71/train_and_submit.ipynb",
+    "source": "embedded source in ast_wavlm_baseplus_seed42_run01/train_and_submit.ipynb",
+    "source_sha256": "9df67201823d4ce80f2478e15866ddd5bb06e85160712cae2cea914c9e5e951b",
+    "published_sha256": "705814c18eacf8e7e82c385dbf23053277e32a41bc93624c5c8c4f4a2296ce58",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/audio_features.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/audio_features.py",
+    "source_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "published_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/batch_probe.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/batch_probe.py",
+    "source_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "published_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/deliver_backup.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/full_data_train.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/full_data_train.py",
+    "source_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "published_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/pipeline.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/pipeline.py",
+    "source_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "published_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/pooling.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/publish_full_model.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/publish_full_model.py",
+    "source_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "published_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/publish_kaggle.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/publish_kaggle.py",
+    "source_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "published_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/runner.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/sweep_utils.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/sweep_utils.py",
+    "source_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "published_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/telemetry.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/test_configurable.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/test_full_data.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/test_pipeline.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/train_worker.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/train_worker.py",
+    "source_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "published_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/verify_backup.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/notebook_controls.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/notebook_controls.py",
+    "source_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "published_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/run_metadata.py",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/1849d19d18cb/train_and_submit.ipynb",
+    "source": "embedded source in firstaudrioronnlysimplemfflgp/train_and_submit.ipynb",
+    "source_sha256": "36e68f63b4b34c7ae29b4e64dedbf0494e26aec04b3af85de26dc927c91f8787",
+    "published_sha256": "e7ec0094b9d916ce6dd7f110172eea9a5ffb4284a479bcf8b5eac710392a3dbb",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/audio_features.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/audio_features.py",
+    "source_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "published_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/batch_probe.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/batch_probe.py",
+    "source_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "published_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/deliver_backup.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/full_data_train.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/full_data_train.py",
+    "source_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "published_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/pipeline.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/pipeline.py",
+    "source_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "published_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/pooling.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/publish_full_model.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/publish_full_model.py",
+    "source_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "published_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/publish_kaggle.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/publish_kaggle.py",
+    "source_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "published_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/runner.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/sweep_utils.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/sweep_utils.py",
+    "source_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "published_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/telemetry.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/test_configurable.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/test_full_data.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/test_pipeline.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/train_worker.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/train_worker.py",
+    "source_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "published_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/verify_backup.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/notebook_controls.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/notebook_controls.py",
+    "source_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "published_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/run_metadata.py",
+    "source": "embedded source in firstaudrioronlysimplemflp/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/11b6a7d2a306/train_and_submit.ipynb",
+    "source": "embedded source in firstaudrioronlysimplemflp/train_and_submit.ipynb",
+    "source_sha256": "44ed17b7c945e8102c7a6a0ec7be83dbbde8d41a8ab8164a29915b579c14f140",
+    "published_sha256": "1e67053611adbb6213b7606aef89d95f7e995d70ad570cf802ff4b6967ff00bc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/audio_features.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/audio_features.py",
+    "source_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "published_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/batch_probe.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/batch_probe.py",
+    "source_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "published_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/deliver_backup.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/full_data_train.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/full_data_train.py",
+    "source_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "published_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/pipeline.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/pipeline.py",
+    "source_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18",
+    "published_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/pooling.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/publish_full_model.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/publish_full_model.py",
+    "source_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "published_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/publish_kaggle.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/publish_kaggle.py",
+    "source_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "published_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/runner.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/spectrogram_features.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/spectrogram_features.py",
+    "source_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d",
+    "published_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/sweep_utils.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/sweep_utils.py",
+    "source_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "published_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/telemetry.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/test_configurable.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/test_full_data.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/test_pipeline.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/test_spectrogram.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/test_spectrogram.py",
+    "source_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "published_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/train_worker.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/train_worker.py",
+    "source_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1",
+    "published_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/verify_backup.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/notebook_controls.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/notebook_controls.py",
+    "source_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f",
+    "published_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/run_metadata.py",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/run_metadata.py",
+    "source_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c",
+    "published_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/a4e42dc5b9c6/train_and_submit.ipynb",
+    "source": "embedded source in spectrogram_fcnn_smdalyl_run01/train_and_submit.ipynb",
+    "source_sha256": "2b3d4ba314f367c91ee0438f30a245f1676491bacbe15391e104cee2d55c2cb1",
+    "published_sha256": "bd6ac5da6999f5f4f0ee957e66ec193cae8b3aa629eb3cff229a71673efc172b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/audio_features.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/audio_features.py",
+    "source_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "published_sha256": "0f8d1c77f2bee80f46e6622903b73d6837a3871850f582579003194bc1a8bdc8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/batch_probe.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/batch_probe.py",
+    "source_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "published_sha256": "8841acdf1415d931c7decdd5e02a822d5aff2d1d65a23f70b10aa2387a5f39a2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/deliver_backup.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/full_data_train.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/full_data_train.py",
+    "source_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "published_sha256": "a5910886ebf8ddf77e914f191a18b282f857ff30d0b205403ef57a1389477a36",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/pipeline.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/pipeline.py",
+    "source_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "published_sha256": "3d536bc0a8ec8abe782247ea405dffaceaaf63d560b1edab718e351d418fe556",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/pooling.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/publish_full_model.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/publish_full_model.py",
+    "source_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "published_sha256": "7edc39009c15872e51212267471d0c06a2ecd2e45ddcaea20df658fb3c17d848",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/publish_kaggle.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/publish_kaggle.py",
+    "source_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "published_sha256": "ba6902b7da2a7d9bdd7e4d6ed6bff0091fbc8b59d17808ed69ba92b715038a45",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/runner.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/sweep_utils.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/sweep_utils.py",
+    "source_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "published_sha256": "1d46ad756102c0eb9545302b801308f992d3bab1bbc0962ec8bf9f7243c0ba67",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/telemetry.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/test_configurable.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/test_full_data.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/test_pipeline.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/train_worker.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/train_worker.py",
+    "source_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "published_sha256": "ff7e49f878787b06debd8d35c3c317686aae79e67c3c8df7b2cf14586e3a24b9",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/verify_backup.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/notebook_controls.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/notebook_controls.py",
+    "source_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "published_sha256": "11ac6b210e4eed507aff39b8515d652a08ff0a4512f754e7bc417162f2449228",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/run_metadata.py",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/26ad50534b74/train_and_submit.ipynb",
+    "source": "embedded source in firstaudrioronnlysimvplemfvflgp/train_and_submit.ipynb",
+    "source_sha256": "b434a96fe7a432570905e2812c22972afa55c0f6a9ce960cec34ff1e1343ac08",
+    "published_sha256": "06750a877f2c12ddc68b256f3b52f13a378df43ebf454fafed71bb7475aa7434",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/audio_features.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/audio_features.py",
+    "source_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "published_sha256": "42efd4ab863fdf8be66a2a932e744b9d663627e4754d3fb95960f4d36a0329eb",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/batch_probe.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/batch_probe.py",
+    "source_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "published_sha256": "53c9f2a1464d18eb4e6a99961c05f059bbedb5e983206ae473339cf495b00f44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/deliver_backup.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/full_data_train.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/full_data_train.py",
+    "source_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "published_sha256": "ae22cb56b6b9ae80aa5e989bc4c1d47cf261cb1d0f495e9349f7e7ee9f2c5a24",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/pipeline.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/pipeline.py",
+    "source_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18",
+    "published_sha256": "80ee5df9ca409ef4bfeb027447cab00ebb48a0aeb29802092d0ab3fc30c0dd18",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/pooling.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/publish_full_model.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/publish_full_model.py",
+    "source_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "published_sha256": "7fe8d1e03b58f75b80450cc460bb453a1f65a1c7f9b1008de128701c01b076dd",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/publish_kaggle.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/publish_kaggle.py",
+    "source_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "published_sha256": "333902229d0daa5eb2685312aa9393195025122e539dbb64969ba5906e252323",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/runner.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/spectrogram_features.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/spectrogram_features.py",
+    "source_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d",
+    "published_sha256": "9108e84ce71f05fc1388265bf0ea94c0fc5510c96de17f95a03b41983f75571d",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/sweep_utils.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/sweep_utils.py",
+    "source_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "published_sha256": "e8d63c16ac5d5d49b34ff4b2719ebcb667d91d17c73660d28928e0d3830b3a66",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/telemetry.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/test_configurable.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/test_full_data.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/test_pipeline.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/test_spectrogram.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/test_spectrogram.py",
+    "source_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "published_sha256": "a7173bcb8ac1ecdfa5953d800851744225a34b04d1009d1d62fcd4ba122d0e58",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/train_worker.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/train_worker.py",
+    "source_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1",
+    "published_sha256": "bee468c950c07ba8bed3970dd759b6d0aa434dd162952e361e1073ac0674c5c1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/verify_backup.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/notebook_controls.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/notebook_controls.py",
+    "source_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f",
+    "published_sha256": "43ed5a30ad1e63d1fdb4347bafbeb2aa9451fae2a47ce4fc53dd1aa625b01a4f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/run_metadata.py",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/run_metadata.py",
+    "source_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c",
+    "published_sha256": "c930d1ebcd18e9c9053b02834de63ea66582385e4eec7abf05b2c3e98dbc452c",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/cda28748b09d/train_and_submit.ipynb",
+    "source": "embedded source in spectrorgram_fcnn_smdalyl_crfun01/train_and_submit.ipynb",
+    "source_sha256": "5b8ff6e245eb27e4394f0c480d2a9a4962c6a7ac185375842898a777eab2926e",
+    "published_sha256": "9a5df2f7df1fdf19fc68535c7e5949c8b62363b0b81457fdcf3945a1fe2693d3",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/audio_features.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/audio_features.py",
+    "source_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "published_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/backbone_registry.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/backbone_registry.py",
+    "source_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "published_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/batch_probe.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/batch_probe.py",
+    "source_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "published_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/deliver_backup.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/full_data_train.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/full_data_train.py",
+    "source_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "published_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/loader_utils.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/loader_utils.py",
+    "source_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "published_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/pipeline.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/pipeline.py",
+    "source_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "published_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/pooling.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/publish_full_model.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/publish_full_model.py",
+    "source_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "published_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/publish_kaggle.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/publish_kaggle.py",
+    "source_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "published_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/runner.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/spectrogram_features.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/spectrogram_features.py",
+    "source_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "published_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/sweep_utils.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/sweep_utils.py",
+    "source_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "published_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/telemetry.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/train_worker.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/train_worker.py",
+    "source_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "published_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/verify_backup.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/waveform_features.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/waveform_features.py",
+    "source_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "published_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/notebook_controls.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/notebook_controls.py",
+    "source_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "published_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/run_metadata.py",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/run_metadata.py",
+    "source_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "published_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/5075459d6355/train_and_submit.ipynb",
+    "source": "embedded source in best_ahxst_gated2048_v5_compabirsme01/train_and_submit.ipynb",
+    "source_sha256": "a15161396efd663acb23ca40c40347d771ebc9ccb60c81cd5fbbb4f9456571cd",
+    "published_sha256": "ef40b3d51feedcd49189995c743f31d4be629542abacefd541ef989e92b1dd33",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/audio_features.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/audio_features.py",
+    "source_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "published_sha256": "5e28d1ec73b06d05541a999891f89f2ae9792213c5bc428239f3f1fc689d53da",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/backbone_registry.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/backbone_registry.py",
+    "source_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "published_sha256": "2ef39d06831c32a78009618409fd742199a8f5faba8479a2f0289beffaa2d84e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/batch_probe.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/batch_probe.py",
+    "source_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "published_sha256": "78f412c0155c8a07cc96cc1b713a1918f5beb54ded93f1450019bc9925f4ffa8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/deliver_backup.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/full_data_train.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/full_data_train.py",
+    "source_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "published_sha256": "d8f985dee744ac2417c444d8c79c2132fae15b01ef12addd9d480e8e6d019132",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/loader_utils.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/loader_utils.py",
+    "source_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "published_sha256": "9910bc4f003a7e4693c51d2694b1ddbc46a25f7bb39de7b25f44a6d5d00de825",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/pipeline.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/pipeline.py",
+    "source_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "published_sha256": "b2fd707a9544dfe84081e3d04d361233fee14dcbf13e4e9fa34f02fa70d377c8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/pooling.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/publish_full_model.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/publish_full_model.py",
+    "source_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "published_sha256": "f1bfc21a949d965cdba2d1ef61566a3d786019653f7d7d2e873d2f106525a497",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/publish_kaggle.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/publish_kaggle.py",
+    "source_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "published_sha256": "5d9cfa60c301a9728e141d0bbca46c8588113efa51f7db2b9333da2c216b277a",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/runner.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/spectrogram_features.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/spectrogram_features.py",
+    "source_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "published_sha256": "ad808e241d2d0d6a508c5e89646ed4291e2b6c36fa93cb3eb4bb7983a41daa5b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/sweep_utils.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/sweep_utils.py",
+    "source_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "published_sha256": "1559712054065a31db00e212947c036c17f1fadb8d0c957aa23312902b385d44",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/telemetry.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/train_worker.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/train_worker.py",
+    "source_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "published_sha256": "4e25a8a42d8200638cc2abbfa3a16cdeb98284fd8f504b8dffb32f7ecb89bb73",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/verify_backup.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/waveform_features.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/waveform_features.py",
+    "source_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "published_sha256": "008a788fed5d2b62ef09f67543a695273d336131e11b3a4ee86aa2f5357fe47f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/notebook_controls.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/notebook_controls.py",
+    "source_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "published_sha256": "ea1c5bdb423a765ed5fdb174cbfa2d634e6f87ea5cd2542081af3ad8d238a0c1",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/run_metadata.py",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/run_metadata.py",
+    "source_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "published_sha256": "30dfc861a20924b97ee0109352f8a4d1ef00a46ddc867d440235338df7cc0b47",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/b355fac04c56/train_and_submit.ipynb",
+    "source": "embedded source in best_ast_gated2048_v5_comparse01/train_and_submit.ipynb",
+    "source_sha256": "d8e2123d440a3d37fa07743c8fbd0f8e4564dd0e6463347cee54f64635b08f2a",
+    "published_sha256": "ebd8c443764153f2585ae3965692a789c76e902c691f8744a69ba94696c0cffe",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/runner.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/runner.py",
+    "source_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "published_sha256": "fdf332b2c1316094b707dec6083683c4b0957f77a56767eaf03dacfdef0450d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/publish_kaggle.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/publish_kaggle.py",
+    "source_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "published_sha256": "231a0927a0d08380c646c3ea6d84fe211bbdefda8b023a784dd0bc17cc1358ab",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/batch_probe.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/batch_probe.py",
+    "source_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "published_sha256": "b2892739d08bde665a480145153ee3823375fe97a4455d6b6410d9999b5a8308",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/train_worker.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/train_worker.py",
+    "source_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "published_sha256": "552ab97985ab8abd99912460b65f496d110d9b38985a0529dc4752269b879092",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/pooling.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/pooling.py",
+    "source_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "published_sha256": "18a98a51a5664bad9c3a5419cb4933d03ab629c2d2dab276eb62e8f70d9d6b14",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/telemetry.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/telemetry.py",
+    "source_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "published_sha256": "4eb3cb809b26525af29071988a65ae44013a3ef879ce2325655b7384e8878ec2",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/test_configurable.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/test_configurable.py",
+    "source_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "published_sha256": "4d799b30668d45d3e9dc430cc5934b0cab4cde7f31f3565453d06ecce2b5e81b",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/pipeline.py",
+    "source_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "published_sha256": "9aff562a138c807080261a6966299cce3a8a734b6cb25b0cf517bf92d5bfda1d",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/publish_full_model.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/publish_full_model.py",
+    "source_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "published_sha256": "8a9b17f856d3e21cfe69944476dac504a7f1155861e44f2204d8e66e0684c98f",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/deliver_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/deliver_backup.py",
+    "source_sha256": "c0ea5bfb1909d2213969b2be6100bca76b955228ed80b0b8ee2f21336ca9f667",
+    "published_sha256": "ad43c4df027750dbf8e88f987c7b4e5d3bbbaa6cc79bf3ac3d280c14247d41f4",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/test_full_data.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/test_full_data.py",
+    "source_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "published_sha256": "a37db282e8d2ac7cc92735d2d09de89f8e84d5b06a69a1afd9f623ae7f3ec1db",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/full_data_train.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/full_data_train.py",
+    "source_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "published_sha256": "2b4d408e70d57a210c7b39707d90f432e5a10785e59897007735895c5073e3d8",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/test_pipeline.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/test_pipeline.py",
+    "source_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "published_sha256": "18d8453a36e2bcea0034c1be2ec672d8dc0c312cbaff2b113608633896d8e24e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/sweep_utils.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/sweep_utils.py",
+    "source_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "published_sha256": "2ac76deee22a88c93c11aa7e02f3dea5a387429e23466dda39860a1bfff9c965",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/verify_backup.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/verify_backup.py",
+    "source_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "published_sha256": "eb25e114aa49811d9cfad50338c291d74b23c0a25354d80c2f747a405a737d55",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/notebook_controls.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/notebook_controls.py",
+    "source_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "published_sha256": "7769ec0c74ca3e9295ffa6ac5d6bca10ddc824de9e3b8882e9e17f1ef463ec9e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/run_metadata.py",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/run_metadata.py",
+    "source_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "published_sha256": "7c4403adda9eb06ae77fde725eeec4b8ddaaf66a441946d2f56c22cc5717debc",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  },
+  {
+    "path": "experiments/source_snapshots/39c6ee0dc570/train_and_submit.ipynb",
+    "source": "embedded source in crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm/train_and_submit.ipynb",
+    "source_sha256": "1d855856679e65ce661dde2306bf276105f2251cfaf59f8da0c32c7d4108bbb8",
+    "published_sha256": "b73b0cf2fbd23000609dbefd59bfb9ff5179da619ae9f5b68f198429e2e6973e",
+    "publication_edit": "Notebook outputs cleared; historical IP addresses replaced where present."
+  }
+]

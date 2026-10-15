@@ -1,0 +1,11 @@
+{
+  "submission": "03_hurdle60_joint40.csv",
+  "sha256": "a6f2ff3bcc7b9833b68882c0564daeb00c1bf812b00a59d0277a61ef0bb64d6c",
+  "public_rmse": 0.3141,
+  "rank_at_screenshot": 5,
+  "recipe": {
+    "learned_hurdle_regression": 0.6,
+    "prior_12_model_joint_quality_ensemble": 0.4
+  },
+  "private_score": null
+}

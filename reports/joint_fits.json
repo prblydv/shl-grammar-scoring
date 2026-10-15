@@ -1,0 +1,420 @@
+{
+  "outer_fits": {
+    "quadratic": [
+      {
+        "selected": {
+          "params": {
+            "kind": "quadratic",
+            "alpha": 3.0,
+            "new_scale": 1.0
+          },
+          "mse": 0.2441625783042161
+        },
+        "minimum_inner_mse": 0.2441625783042161,
+        "candidates": 10
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "quadratic",
+            "alpha": 30.0,
+            "new_scale": 1.0
+          },
+          "mse": 0.22569293664933793
+        },
+        "minimum_inner_mse": 0.22569293664933793,
+        "candidates": 10
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "quadratic",
+            "alpha": 30.0,
+            "new_scale": 1.0
+          },
+          "mse": 0.2259877783204927
+        },
+        "minimum_inner_mse": 0.2259877783204927,
+        "candidates": 10
+      }
+    ],
+    "rbf": [
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 0.3,
+            "new_scale": 0.25
+          },
+          "mse": 0.23942173381635679
+        },
+        "minimum_inner_mse": 0.2392328655556414,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 0.3,
+            "new_scale": 1.0
+          },
+          "mse": 0.22053794506023106
+        },
+        "minimum_inner_mse": 0.22053794506023106,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": false,
+            "alpha": 10.0,
+            "gamma": 0.3,
+            "new_scale": 0.25
+          },
+          "mse": 0.22217081122173488
+        },
+        "minimum_inner_mse": 0.22217081122173488,
+        "candidates": 40
+      }
+    ],
+    "quality_rbf": [
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": true,
+            "alpha": 3.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.23670374114730167
+        },
+        "minimum_inner_mse": 0.23670374114730167,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": true,
+            "alpha": 3.0,
+            "gamma": 1.0,
+            "new_scale": 1.0
+          },
+          "mse": 0.2205102081803436
+        },
+        "minimum_inner_mse": 0.2205102081803436,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "rbf",
+            "quality": true,
+            "alpha": 10.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.22148484215174152
+        },
+        "minimum_inner_mse": 0.22148484215174152,
+        "candidates": 40
+      }
+    ],
+    "multiscale": [
+      {
+        "selected": {
+          "params": {
+            "kind": "multiscale",
+            "quality": false,
+            "alpha": 1.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.2376950821098427
+        },
+        "minimum_inner_mse": 0.2376950821098427,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "multiscale",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.2185701607377182
+        },
+        "minimum_inner_mse": 0.21847808549535108,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "multiscale",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 0.1,
+            "new_scale": 0.25
+          },
+          "mse": 0.2217972684104055
+        },
+        "minimum_inner_mse": 0.2217972684104055,
+        "candidates": 40
+      }
+    ],
+    "matern": [
+      {
+        "selected": {
+          "params": {
+            "kind": "matern",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.23863338825844504
+        },
+        "minimum_inner_mse": 0.23863338825844504,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "matern",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 1.0,
+            "new_scale": 0.25
+          },
+          "mse": 0.219105307945826
+        },
+        "minimum_inner_mse": 0.21891091431971393,
+        "candidates": 40
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "matern",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 0.1,
+            "new_scale": 0.25
+          },
+          "mse": 0.22163118574426754
+        },
+        "minimum_inner_mse": 0.22163118574426754,
+        "candidates": 40
+      }
+    ],
+    "joint": [
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": false,
+            "alpha": 3.0,
+            "gamma": 0.3,
+            "new_scale": 1.0,
+            "kernel_weight": 1.0
+          },
+          "mse": 0.23767314940124407
+        },
+        "minimum_inner_mse": 0.23767314940124407,
+        "candidates": 72
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": false,
+            "alpha": 100.0,
+            "gamma": 0.3,
+            "new_scale": 0.25,
+            "kernel_weight": 10.0
+          },
+          "mse": 0.21960242411092876
+        },
+        "minimum_inner_mse": 0.2195197131382482,
+        "candidates": 72
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": false,
+            "alpha": 100.0,
+            "gamma": 0.3,
+            "new_scale": 0.25,
+            "kernel_weight": 10.0
+          },
+          "mse": 0.22021297366013054
+        },
+        "minimum_inner_mse": 0.22021297366013054,
+        "candidates": 72
+      }
+    ],
+    "joint_quality": [
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": true,
+            "alpha": 30.0,
+            "gamma": 0.3,
+            "new_scale": 0.25,
+            "kernel_weight": 10.0
+          },
+          "mse": 0.237099453790857
+        },
+        "minimum_inner_mse": 0.23700815056522231,
+        "candidates": 72
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": true,
+            "alpha": 100.0,
+            "gamma": 0.3,
+            "new_scale": 0.25,
+            "kernel_weight": 10.0
+          },
+          "mse": 0.220711763348642
+        },
+        "minimum_inner_mse": 0.22057588048194493,
+        "candidates": 72
+      },
+      {
+        "selected": {
+          "params": {
+            "kind": "joint",
+            "quality": true,
+            "alpha": 100.0,
+            "gamma": 0.3,
+            "new_scale": 0.25,
+            "kernel_weight": 10.0
+          },
+          "mse": 0.22014833318243368
+        },
+        "minimum_inner_mse": 0.22014833318243368,
+        "candidates": 72
+      }
+    ]
+  },
+  "full_fits": {
+    "quadratic": {
+      "selected": {
+        "params": {
+          "kind": "quadratic",
+          "alpha": 30.0,
+          "new_scale": 1.0
+        },
+        "mse": 0.2364305362589534
+      },
+      "minimum_inner_mse": 0.2364305362589534,
+      "candidates": 10
+    },
+    "rbf": {
+      "selected": {
+        "params": {
+          "kind": "rbf",
+          "quality": false,
+          "alpha": 10.0,
+          "gamma": 0.3,
+          "new_scale": 1.0
+        },
+        "mse": 0.23070472983435816
+      },
+      "minimum_inner_mse": 0.23070472983435816,
+      "candidates": 40
+    },
+    "quality_rbf": {
+      "selected": {
+        "params": {
+          "kind": "rbf",
+          "quality": true,
+          "alpha": 10.0,
+          "gamma": 0.3,
+          "new_scale": 1.0
+        },
+        "mse": 0.2292944602473824
+      },
+      "minimum_inner_mse": 0.2292944602473824,
+      "candidates": 40
+    },
+    "multiscale": {
+      "selected": {
+        "params": {
+          "kind": "multiscale",
+          "quality": false,
+          "alpha": 10.0,
+          "gamma": 1.0,
+          "new_scale": 0.25
+        },
+        "mse": 0.230586312805218
+      },
+      "minimum_inner_mse": 0.23046354660566154,
+      "candidates": 40
+    },
+    "matern": {
+      "selected": {
+        "params": {
+          "kind": "matern",
+          "quality": false,
+          "alpha": 10.0,
+          "gamma": 1.0,
+          "new_scale": 0.25
+        },
+        "mse": 0.23050014747932251
+      },
+      "minimum_inner_mse": 0.23039945938605416,
+      "candidates": 40
+    },
+    "joint": {
+      "selected": {
+        "params": {
+          "kind": "joint",
+          "quality": false,
+          "alpha": 100.0,
+          "gamma": 0.3,
+          "new_scale": 1.0,
+          "kernel_weight": 10.0
+        },
+        "mse": 0.22991910209481695
+      },
+      "minimum_inner_mse": 0.22991910209481695,
+      "candidates": 72
+    },
+    "joint_quality": {
+      "selected": {
+        "params": {
+          "kind": "joint",
+          "quality": true,
+          "alpha": 100.0,
+          "gamma": 0.3,
+          "new_scale": 1.0,
+          "kernel_weight": 10.0
+        },
+        "mse": 0.22938212704448177
+      },
+      "minimum_inner_mse": 0.22938212704448177,
+      "candidates": 72
+    }
+  },
+  "validation": "Fixed original three grouped outer folds; inner three-fold source-group CV tunes parameters. Convex meta weights use inner cross-fitted component predictions, never outer held-out labels. Features/scales/centering fitted inside each training partition.",
+  "limitations": [
+    "Frozen base OOF predictions are not regenerated in fully nested base-level CV; development measures are not independent performance estimates.",
+    "Families and final candidates reuse the same development data and earlier leaderboard-informed winner. Selection optimism remains.",
+    "Some historic exports use best-fold or full-data test predictions while OOF uses held-out CV models; inference-distribution mismatch remains.",
+    "Same-OOF duplicate exports are not independent models; full-data export preferred, matching earlier winner.",
+    "No test labels, public-score tuning, backbone retraining or Kaggle uploads used. Lower development MSE does not guarantee a better public/private score."
+  ]
+}

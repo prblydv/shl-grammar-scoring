@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+threadpoolctl
+pyarrow
+matplotlib
+joblib
+nbformat
+nbclient
+rapidfuzz
+h5py
+librosa
+soundfile

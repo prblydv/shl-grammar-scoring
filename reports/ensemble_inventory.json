@@ -1,0 +1,292 @@
+{
+  "joint_12": [
+    {
+      "file": "run_metadata_0.494861.txt",
+      "run_id": "spectrogram_fcnn_smdalyl_run01",
+      "action": "full_data",
+      "sha256": "a31bb680e90cf643d38e0bbe76967c6ef7757518940b132e7eaae1e0c78715cc",
+      "base_metrics": {
+        "mse": 0.2452641581720775,
+        "rmse": 0.495241514992511,
+        "pearson": 0.9174298568541054
+      }
+    },
+    {
+      "file": "run_metadata_0.504259.txt",
+      "run_id": "firstaudrioronnlysimvplemfvflgp",
+      "action": "cv_submission",
+      "sha256": "b7ede6417e74e3a17f4345a126ce31edf6b4f785802558b680d24ca9a629dabf",
+      "base_metrics": {
+        "mse": 0.25588174371932243,
+        "rmse": 0.5058475498797266,
+        "pearson": 0.9141008253593713
+      }
+    },
+    {
+      "file": "run_metadata_0.515180.txt",
+      "run_id": "firstaudrioronnlysimplemfflgp",
+      "action": "cv_submission",
+      "sha256": "7bd4772c5700247151df18feb5e26ba04d57713ddf58fed38b05e3861d022afc",
+      "base_metrics": {
+        "mse": 0.2658736498504998,
+        "rmse": 0.515629372563763,
+        "pearson": 0.9105857954473832
+      }
+    },
+    {
+      "file": "run_metadata_0.515594-2.txt",
+      "run_id": "spectrogram_cnn_small_run01",
+      "action": "full_data",
+      "sha256": "6a1fd507eb4ebdc8bc1598607eb3d373d26dd53878c53396d1b423a8568ee9e1",
+      "base_metrics": {
+        "mse": 0.2661741757792093,
+        "rmse": 0.515920706871908,
+        "pearson": 0.9102107769677045
+      }
+    },
+    {
+      "file": "run_metadata_0.517052.txt",
+      "run_id": "firstaudrioronlysimplemflp",
+      "action": "best_fold",
+      "sha256": "7bdf4c81a6b4b5b2469fd33e883a8d0fe5b8a3bdb84056735049c3d879c5f8c1",
+      "base_metrics": {
+        "mse": 0.2685775216166699,
+        "rmse": 0.5182446542094477,
+        "pearson": 0.9091641209455151
+      }
+    },
+    {
+      "file": "run_metadata_0.597296.txt",
+      "run_id": "firstaudioronlysimplemflp",
+      "action": "best_fold",
+      "sha256": "63f0724453bd6a5c831b18ed0a89c375e76d1c34936ab395c1c9011b5926c73a",
+      "base_metrics": {
+        "mse": 0.3589491111451692,
+        "rmse": 0.5991236192516276,
+        "pearson": 0.8751517761507247
+      }
+    },
+    {
+      "file": "run_metadata_0.600088.txt",
+      "run_id": "firstaudioonlysimplemlp",
+      "action": "best_fold",
+      "sha256": "0829c9399238464b12fbb31e0d7e21269dfc95180a679db024107fea0dcee5c0",
+      "base_metrics": {
+        "mse": 0.3605230082643318,
+        "rmse": 0.6004356820379114,
+        "pearson": 0.8745734993119387
+      }
+    },
+    {
+      "file": "run_metadata_0.815625.txt",
+      "run_id": "crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm",
+      "action": "best_fold",
+      "sha256": "06ef62431e3c66bd6be23a2f891e70ba358247eaa6e9de0e99fc154f2d32c098",
+      "base_metrics": {
+        "mse": 0.665341659074588,
+        "rmse": 0.8156847792343486,
+        "pearson": 0.7584638426292685
+      }
+    },
+    {
+      "file": "run_metadata_0.872455.txt",
+      "run_id": "crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm",
+      "action": "best_fold",
+      "sha256": "fc9e1159a1e1d6d469098c729f86846dab065034799e88a144d095a7a2defe1a",
+      "base_metrics": {
+        "mse": 0.7620814181412074,
+        "rmse": 0.872972747650926,
+        "pearson": 0.7112030547992528
+      }
+    },
+    {
+      "file": "run_metadata_0.877899.txt",
+      "run_id": "crisper_debertav2xlarge_20epochs",
+      "action": "best_fold",
+      "sha256": "722c7b149cdf184e6d83f65b87edee576e0db7c6b57408acdb4651466a2d64c4",
+      "base_metrics": {
+        "mse": 0.7718279837632902,
+        "rmse": 0.8785374117038444,
+        "pearson": 0.7133910253561172
+      }
+    },
+    {
+      "file": "run_metadata_0.537079.txt",
+      "run_id": "spectrorgram_fcnn_smdalyl_crfun01",
+      "action": "full_data",
+      "sha256": "cd4ba650c6b3c3822ba1e2657a78ccd3e267c0efd3ed4e5ea7b1bfd0edd25f58",
+      "base_metrics": {
+        "mse": 0.28921445128932205,
+        "rmse": 0.5377866224529223,
+        "pearson": 0.9028648009006692
+      }
+    },
+    {
+      "file": "run_metadata_0.539652.txt",
+      "run_id": "ast_wavlm_baseplus_seed42_run01",
+      "action": "cv_submission",
+      "sha256": "7759805bd11794300ba197c32de3a87b112478587a0ce5329b6475a6cfe078a4",
+      "base_metrics": {
+        "mse": 0.29184692860245864,
+        "rmse": 0.5402285892124358,
+        "pearson": 0.9017400887213927
+      }
+    }
+  ],
+  "hurdle_14": [
+    {
+      "file": "run_metadata_0.494861.txt",
+      "run_id": "spectrogram_fcnn_smdalyl_run01",
+      "action": "full_data",
+      "sha256": "a31bb680e90cf643d38e0bbe76967c6ef7757518940b132e7eaae1e0c78715cc",
+      "base_metrics": {
+        "mse": 0.2452641581720775,
+        "rmse": 0.495241514992511,
+        "pearson": 0.9174298568541054
+      }
+    },
+    {
+      "file": "run_metadata_0.504259.txt",
+      "run_id": "firstaudrioronnlysimvplemfvflgp",
+      "action": "cv_submission",
+      "sha256": "b7ede6417e74e3a17f4345a126ce31edf6b4f785802558b680d24ca9a629dabf",
+      "base_metrics": {
+        "mse": 0.25588174371932243,
+        "rmse": 0.5058475498797266,
+        "pearson": 0.9141008253593713
+      }
+    },
+    {
+      "file": "run_metadata_0.515180.txt",
+      "run_id": "firstaudrioronnlysimplemfflgp",
+      "action": "cv_submission",
+      "sha256": "7bd4772c5700247151df18feb5e26ba04d57713ddf58fed38b05e3861d022afc",
+      "base_metrics": {
+        "mse": 0.2658736498504998,
+        "rmse": 0.515629372563763,
+        "pearson": 0.9105857954473832
+      }
+    },
+    {
+      "file": "run_metadata_0.515594-2.txt",
+      "run_id": "spectrogram_cnn_small_run01",
+      "action": "full_data",
+      "sha256": "6a1fd507eb4ebdc8bc1598607eb3d373d26dd53878c53396d1b423a8568ee9e1",
+      "base_metrics": {
+        "mse": 0.2661741757792093,
+        "rmse": 0.515920706871908,
+        "pearson": 0.9102107769677045
+      }
+    },
+    {
+      "file": "run_metadata_0.517052.txt",
+      "run_id": "firstaudrioronlysimplemflp",
+      "action": "best_fold",
+      "sha256": "7bdf4c81a6b4b5b2469fd33e883a8d0fe5b8a3bdb84056735049c3d879c5f8c1",
+      "base_metrics": {
+        "mse": 0.2685775216166699,
+        "rmse": 0.5182446542094477,
+        "pearson": 0.9091641209455151
+      }
+    },
+    {
+      "file": "run_metadata_0.597296.txt",
+      "run_id": "firstaudioronlysimplemflp",
+      "action": "best_fold",
+      "sha256": "63f0724453bd6a5c831b18ed0a89c375e76d1c34936ab395c1c9011b5926c73a",
+      "base_metrics": {
+        "mse": 0.3589491111451692,
+        "rmse": 0.5991236192516276,
+        "pearson": 0.8751517761507247
+      }
+    },
+    {
+      "file": "run_metadata_0.600088.txt",
+      "run_id": "firstaudioonlysimplemlp",
+      "action": "best_fold",
+      "sha256": "0829c9399238464b12fbb31e0d7e21269dfc95180a679db024107fea0dcee5c0",
+      "base_metrics": {
+        "mse": 0.3605230082643318,
+        "rmse": 0.6004356820379114,
+        "pearson": 0.8745734993119387
+      }
+    },
+    {
+      "file": "run_metadata_0.815625.txt",
+      "run_id": "crisper_debertav2xlarge_20epochsAddingMoreconccatlayersLstm",
+      "action": "best_fold",
+      "sha256": "06ef62431e3c66bd6be23a2f891e70ba358247eaa6e9de0e99fc154f2d32c098",
+      "base_metrics": {
+        "mse": 0.665341659074588,
+        "rmse": 0.8156847792343486,
+        "pearson": 0.7584638426292685
+      }
+    },
+    {
+      "file": "run_metadata_0.872455.txt",
+      "run_id": "crisper_debertav2xlarge_20epochsAddingMoreconcatlayersLstm",
+      "action": "best_fold",
+      "sha256": "fc9e1159a1e1d6d469098c729f86846dab065034799e88a144d095a7a2defe1a",
+      "base_metrics": {
+        "mse": 0.7620814181412074,
+        "rmse": 0.872972747650926,
+        "pearson": 0.7112030547992528
+      }
+    },
+    {
+      "file": "run_metadata_0.877899.txt",
+      "run_id": "crisper_debertav2xlarge_20epochs",
+      "action": "best_fold",
+      "sha256": "722c7b149cdf184e6d83f65b87edee576e0db7c6b57408acdb4651466a2d64c4",
+      "base_metrics": {
+        "mse": 0.7718279837632902,
+        "rmse": 0.8785374117038444,
+        "pearson": 0.7133910253561172
+      }
+    },
+    {
+      "file": "run_metadata_0.537079.txt",
+      "run_id": "spectrorgram_fcnn_smdalyl_crfun01",
+      "action": "full_data",
+      "sha256": "cd4ba650c6b3c3822ba1e2657a78ccd3e267c0efd3ed4e5ea7b1bfd0edd25f58",
+      "base_metrics": {
+        "mse": 0.28921445128932205,
+        "rmse": 0.5377866224529223,
+        "pearson": 0.9028648009006692
+      }
+    },
+    {
+      "file": "run_metadata_0.539652.txt",
+      "run_id": "ast_wavlm_baseplus_seed42_run01",
+      "action": "cv_submission",
+      "sha256": "7759805bd11794300ba197c32de3a87b112478587a0ce5329b6475a6cfe078a4",
+      "base_metrics": {
+        "mse": 0.29184692860245864,
+        "rmse": 0.5402285892124358,
+        "pearson": 0.9017400887213927
+      }
+    },
+    {
+      "file": "run_metadata_0.494200.txt",
+      "run_id": "best_ast_gated2048_v5_comparse01",
+      "action": "cv_submission",
+      "sha256": "d73f861d4ee04613c0e91905a9b9b3932b9527e121a79afbed49e1aba66a0c80",
+      "base_metrics": {
+        "mse": 0.24471519619490287,
+        "rmse": 0.49468696788464406,
+        "pearson": 0.9173547195999868
+      }
+    },
+    {
+      "file": "run_metadata_0.517276.txt",
+      "run_id": "best_ahxst_gated2048_v5_compabirsme01",
+      "action": "full_data",
+      "sha256": "d444f8f02fc101a74b79aca32d7b13b7e30b545ba3c788d77aa918484f15e35e",
+      "base_metrics": {
+        "mse": 0.2681566182123366,
+        "rmse": 0.5178384093637093,
+        "pearson": 0.909081690287906
+      }
+    }
+  ]
+}

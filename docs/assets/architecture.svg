@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1130" viewBox="0 0 1440 1130" role="img" aria-labelledby="title desc">
+<title id="title">SHL grammar scoring architecture</title>
+<desc id="desc">Three neural branches combine text, speech features and spectrograms. A separate prediction ensemble includes an experimental hurdle with generalization risks. Backbone families are listed separately.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#8994ae" stroke-width="1.5"/></marker></defs>
+<rect width="1440" height="1130" rx="28" fill="#0e1729"/>
+<text x="56" y="55" fill="#84a0c6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">RESEARCH ENGINEERING / SHL</text>
+<text x="56" y="105" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="700">Three views of spoken grammar.</text>
+<text x="56" y="139" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="400">Text captures content. Speech vectors summarize acoustics. Spectrograms retain local structure.</text>
+<rect x="56" y="175" width="1328" height="65" rx="18" fill="#142238" stroke="#2c3a53"/>
+<text x="80" y="204" fill="#8fadc8" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">INPUT</text>
+<text x="80" y="225" fill="#f2f5fa" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="400">Full recording · original 0–5 targets · joins keyed by split + filename</text>
+<rect x="56" y="275" width="424" height="218" rx="18" fill="#18243a" stroke="#2c3a53"/>
+<text x="79" y="307" fill="#b4a0ff" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">01 / TEXT</text>
+<text x="79" y="344" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600">Whisper Large-v3 → transcript</text>
+<text x="79" y="377" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">DeBERTa-v3-large</text>
+<text x="79" y="403" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Masked mean pooling · 256 tokens</text>
+<text x="79" y="429" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">All 24 transformer blocks trainable</text>
+<text x="79" y="473" fill="#b4a0ff" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Contextual text representation</text>
+<path d="M268 240 L268 273" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M268 493 L268 534" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="508" y="275" width="424" height="218" rx="18" fill="#18243a" stroke="#2c3a53"/>
+<text x="531" y="307" fill="#6ed4c3" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">02 / SPEECH VECTORS</text>
+<text x="531" y="344" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600">WavLM + HuBERT + wav2vec2</text>
+<text x="531" y="377" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">11 mean/std layer channels</text>
+<text x="531" y="403" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">8,448 features → gated MLP</text>
+<text x="531" y="429" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">10 layers · width 2,048 → 256</text>
+<text x="531" y="473" fill="#6ed4c3" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">Fold-local imputation + scaling</text>
+<path d="M720 240 L720 273" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M720 493 L720 534" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="960" y="275" width="424" height="218" rx="18" fill="#18243a" stroke="#2c3a53"/>
+<text x="983" y="307" fill="#f1bd7b" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">03 / SPECTROGRAM</text>
+<text x="983" y="344" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600">128-band full-recording log-mel</text>
+<text x="983" y="377" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">AudioSet-pretrained AST</text>
+<text x="983" y="403" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">1,024-frame chunks → 256</text>
+<text x="983" y="429" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Native positions + absolute chunk time</text>
+<text x="983" y="473" fill="#f1bd7b" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400">All chunks retained · fold-local scaling</text>
+<path d="M1172 240 L1172 273" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M1172 493 L1172 534" fill="none" stroke="#8994ae" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="56" y="537" width="1328" height="83" rx="18" fill="#1d2b45" stroke="#2c3a53"/>
+<text x="80" y="569" fill="#9eb4d6" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">FUSION</text>
+<text x="80" y="596" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="21" font-weight="400">Concatenate → LayerNorm → Linear 256 → GELU → dropout → scalar head → 5 × sigmoid</text>
+<text x="56" y="651" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Training MSE / validation RMSE · grouped folds · early stopping · effective batch 16</text>
+<rect x="56" y="686" width="650" height="129" rx="18" fill="#18243a" stroke="#2c3a53"/>
+<text x="80" y="719" fill="#b4a0ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">PREDICTION ENSEMBLES</text>
+<text x="80" y="752" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600">Aligned OOF predictions → regularized corrections</text>
+<text x="80" y="782" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Linear / quadratic / multiscale kernels · non-hurdle retained</text>
+<rect x="734" y="686" width="650" height="129" rx="18" fill="#2a2530" stroke="#70533e"/>
+<text x="758" y="719" fill="#f1bd7b" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">SEPARATE EXPERIMENT / NOT A NEURAL HEAD</text>
+<text x="758" y="752" fill="#f5f7fc" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600">Learned hurdle + retained joint ensemble</text>
+<text x="758" y="782" fill="#f1bd7b" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400">Lowest public RMSE: 0.3141 · generalization unproven</text>
+<text x="56" y="865" fill="#84a0c6" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600">BACKBONE &amp; REPRESENTATION ATLAS</text>
+<rect x="56" y="887" width="314" height="156" rx="18" fill="#142035" stroke="#2c3a53"/>
+<text x="74" y="917" fill="#a2b5d4" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">TRANSCRIPTION</text>
+<text x="74" y="949" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Whisper Small</text>
+<text x="74" y="977" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">Whisper Large-v3</text>
+<text x="74" y="1005" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">CrisperWhisper 2.0</text>
+<rect x="394" y="887" width="314" height="156" rx="18" fill="#142035" stroke="#2c3a53"/>
+<text x="412" y="917" fill="#a2b5d4" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">TEXT EXPERIMENTS</text>
+<text x="412" y="949" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">DeBERTa-v3-large</text>
+<text x="412" y="977" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">DeBERTa-v2-xlarge</text>
+<text x="412" y="1005" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">TF-IDF + Ridge baseline</text>
+<rect x="732" y="887" width="314" height="156" rx="18" fill="#142035" stroke="#2c3a53"/>
+<text x="750" y="917" fill="#a2b5d4" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">SPEECH ENCODERS</text>
+<text x="750" y="949" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">WavLM Base Plus</text>
+<text x="750" y="977" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">HuBERT Base</text>
+<text x="750" y="1005" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">wav2vec2 Base</text>
+<rect x="1070" y="887" width="314" height="156" rx="18" fill="#142035" stroke="#2c3a53"/>
+<text x="1088" y="917" fill="#a2b5d4" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">SPECTROGRAM EXPERIMENTS</text>
+<text x="1088" y="949" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">CNN small / large</text>
+<text x="1088" y="977" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">AST AudioSet</text>
+<text x="1088" y="1005" fill="#edf2fb" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400">AST stride-16 variant</text>
+<text x="56" y="1084" fill="#c2cce0" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Architecture: audited AST run. Atlas: recorded experiment families, not one giant jointly trained network.</text>
+<text x="56" y="1110" fill="#f1bd7b" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400">Zero/nonzero gating is a later ensemble experiment with dataset-discrepancy and public-selection risks.</text>
+</svg>
