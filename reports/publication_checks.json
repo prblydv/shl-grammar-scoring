@@ -1,7 +1,7 @@
 {
   "publication_validation": {
     "python_syntax_files": 303,
-    "notebook_schemas": 24,
+    "notebook_schemas": 25,
     "source_hashes": 328,
     "local_links": "checked by scripts/validate_publication.py"
   },
@@ -14,5 +14,6 @@
     "note": "Numeric-library differences changed final CSV bytes; the original archived file was left unchanged."
   },
   "charts": "Five SVG/PNG figures regenerated from aggregate evidence.",
-  "credentials_scan": "No GitHub, Hugging Face, Kaggle token patterns or private-key blocks found."
+  "credentials_scan": "No GitHub, Hugging Face, Kaggle token patterns or private-key blocks found.",
+  "final_submission_notebook": "Executed successfully against private archived arrays; recomputed pooled development RMSE 0.47758949308668647 and mean fold RMSE 0.47712068015684367; exported exact archived CSV bytes. Public notebook outputs cleared; executed copy delivered separately."
 }

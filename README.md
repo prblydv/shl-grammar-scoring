@@ -1,5 +1,13 @@
 # SHL Grammar Scoring
 
+
+**Training-data evaluation RMSE: 0.477589*** · **3 grouped folds** · **769 labelled recordings**  
+**Recorded public leaderboard RMSE: 0.3141**
+
+*The training-data figure is the pooled RMSE of the final ensemble's cross-fitted meta-development predictions across all three folds. It is not an in-sample training-fit score. Base OOF features were frozen, the full pipeline was not retrained inside every meta-fold, and final blend weights were selected using public feedback. This is a development estimate, not an independent generalization guarantee. Mean fold RMSE is 0.477121; pooled RMSE is the main reported figure. End-to-end in-sample training RMSE was not recorded.*
+
+**Final submission notebook:** [final_submission.ipynb](final_submission.ipynb) includes the approach, preprocessing, architecture, evaluation report, fold scores, and code to verify the metric and reconstruct the submission from private archived predictions.
+
 **Learning to assess spoken grammar from text, speech representations, and spectrograms.**
 
 1. This repository contains my code and experiment account for the SHL Research Engineer Kaggle assessment. I started with a transparent transcript baseline, investigated the data and validation risks, and developed a multimodal regression pipeline. The objective throughout the final modelling work was **RMSE on the original 0–5 labels**.

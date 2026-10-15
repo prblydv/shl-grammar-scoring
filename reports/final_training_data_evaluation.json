@@ -1,0 +1,32 @@
+{
+  "metric": "RMSE",
+  "evaluation": "Three-fold grouped ensemble-development predictions over frozen base OOF features",
+  "training_rows": 769,
+  "n_folds": 3,
+  "pooled_rmse": 0.47758949308668647,
+  "folds": [
+    {
+      "fold": 0,
+      "rows": 256,
+      "rmse": 0.44778711471864363
+    },
+    {
+      "fold": 1,
+      "rows": 257,
+      "rmse": 0.49057070681286763
+    },
+    {
+      "fold": 2,
+      "rows": 256,
+      "rmse": 0.4930042189390198
+    }
+  ],
+  "public_rmse": 0.3141,
+  "end_to_end_in_sample_training_rmse": null,
+  "limitations": [
+    "Not a fully nested end-to-end OOF estimate: base OOF features were frozen.",
+    "Repeated development search and public-informed final weight selection introduce selection optimism.",
+    "This is not in-sample training-fit RMSE and not public/private-test RMSE."
+  ],
+  "mean_fold_rmse": 0.47712068015684367
+}
