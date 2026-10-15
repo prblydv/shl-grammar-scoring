@@ -10,7 +10,22 @@
 
 **Learning to assess spoken grammar from text, speech representations, and spectrograms.**
 
-1. This repository contains my code and experiment account for the SHL Research Engineer Kaggle assessment. I started with a transparent transcript baseline, investigated the data and validation risks, and developed a multimodal regression pipeline. The objective throughout the final modelling work was **RMSE on the original 0–5 labels**.
+1. **Methodology: learn from prior work, turn it into experiments, and evaluate the result.**
+
+   I began by reviewing related Kaggle competitions involving grammar and language-quality scoring to understand successful approaches and their limitations. I then studied arXiv research on audio processing and transformer representations, looking for ideas applicable to spoken grammar assessment. These findings guided a documented experiment plan: establish a simple baseline, compare transcription methods, explore text and audio representations, and combine complementary models. I used grouped cross-validation, RMSE, and error analysis to assess each iteration, while distinguishing improvements in public leaderboard performance from evidence of broader generalization.
+
+   **Related Kaggle problems → audio research → documented hypotheses → experiments → error analysis**
+
+   The assessment uses one grammar score on the original **0–5 scale**. Related essay-scoring tasks helped inform the text experiments; audio research guided the speech representations. Their inputs, targets, and validation settings differ, so I treated their findings as hypotheses to test on SHL.
+
+   | Research question | How it shaped an experiment | What the evidence showed |
+   |---|---|---|
+   | What transfers from earlier language-scoring competitions? | Explore contextual DeBERTa representations and pooling diversity, informed by the saved Feedback Prize example | The resulting text models provided a starting point; source and audio errors motivated multimodal work |
+   | Is the final speech-transformer layer the only useful representation? | Combine intermediate/final layer mean and standard-deviation features from WavLM, HuBERT, and wav2vec2 | These features entered the multimodal pipeline; a final-only ablation is still needed to isolate their contribution |
+   | Does better transcription automatically improve grammar scoring? | Compare Small and Large-v3 transcripts with the same TF-IDF/Ridge configuration and folds | Larger ASR improved public RMSE but worsened local RMSE; the result was mixed |
+   | Can combining models resolve their remaining errors? | Compare regularized ensembles and inspect shared residuals | Some ensembles improved public RMSE, while adding more models did not reliably help |
+
+   Follow the [research journey](docs/RESEARCH.md), [annotated references](docs/REFERENCES.md), and [what worked / what did not](docs/WHAT_WORKED.md) for the reasoning and recorded results.
 
 2. **Results, with the evaluation setting attached.** Public leaderboard results below are recorded observations from the experiment archive, not current rankings or private-test results.
 
