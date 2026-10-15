@@ -1,5 +1,7 @@
 # 1. Architecture and encoding
 
+This page follows one recording through the audited model: speech-to-text, three feature branches, and a score prediction. A **backbone** is a pretrained model used to extract features; **pooling** summarizes a sequence of features into one vector. Exact settings are retained below.
+
 1. **Inputs and target.** The working dataset has 769 training and 216 test recordings. The target is a continuous grammar rating from 0 to 5. Every modality joins by `(split, filename)` because train/test filenames can overlap. Original labels, including zeros, are retained.
 
 2. **Transcription.** Whisper Small established the initial baseline. Whisper Large-v3 provided the original text input for the audited AST fusion model. CrisperWhisper was investigated as a verbatim alternative, with empty failed transcriptions retained rather than silently dropping labelled rows. Transcripts are model-generated observations, not human reference text. The scoring pipeline preserves their grammar and disfluencies.

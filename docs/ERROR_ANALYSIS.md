@@ -1,5 +1,7 @@
 # 1. What the errors taught me
 
+This page asks where the audited AST model fails and what those failures suggest testing next. **RMSE** gives extra weight to large errors; **MAE** is the average absolute error. Patterns in errors suggest hypotheses, but do not establish their causes.
+
 1. **Average error hides concentrated failures.** The audited AST fusion run has pooled OOF RMSE 0.49524 and MAE 0.38544. Of 769 recordings, 103 have absolute error at least 0.75 and 42 at least 1. The worst 50 account for 37.60% of total squared error. Reviewing hard examples alongside same-label easy controls is therefore more informative than only watching aggregate RMSE.
 
 2. **Score slices show shrinkage, not a proven calibration defect.** Low positive labels tend to be overpredicted and high labels underpredicted. However, prediction-decile mean label-minus-prediction differences range only from about −0.101 to +0.093. Conditioning on the true label can create apparent compression even for reasonable conditional-mean predictions. Blanket expansion of every score was not justified by this audit.

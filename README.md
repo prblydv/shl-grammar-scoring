@@ -8,63 +8,75 @@
 **Write-up updated: 15 October 2026 at 23:19 BST (22:19 UTC).** The rank refers to the saved 15 October leaderboard snapshot; its exact capture time was not retained. This timestamp dates the write-up, not a fresh leaderboard check.
 
 > [!NOTE]
-> *The training-data figure is the pooled RMSE of the final ensemble's cross-fitted meta-development predictions across all three folds. It is not an in-sample training-fit score. Base OOF features were frozen, the full pipeline was not retrained inside every meta-fold, and final blend weights were selected using public feedback. This is a development estimate, not an independent generalization guarantee. Mean fold RMSE is 0.477121; pooled RMSE is the main reported figure. End-to-end in-sample training RMSE was not recorded.*
+> **About the training-data score.** The training-data RMSE combines the final ensemble's evaluation predictions across all three folds. It is one error measure over all 769 labelled recordings. The average of the three fold RMSEs is slightly different: **0.477121**.
+>
+> The base models' saved out-of-fold predictions were reused, so the complete system was not retrained inside every ensemble-validation split. Public leaderboard feedback also informed the final blend weights. Treat this as a development score. An end-to-end in-sample training RMSE was not recorded.
 
-**Final submission notebook:** [final_submission.ipynb](final_submission.ipynb) includes the approach, preprocessing, architecture, evaluation report, fold scores, and code to verify the metric and reconstruct the submission from private archived predictions.
+**Final submission notebook:** [final_submission.ipynb](final_submission.ipynb) explains the method, reports each fold score, and includes code to verify the RMSE and rebuild the submission using the private saved predictions.
 
 **Learning to assess spoken grammar from text, speech representations, and spectrograms.**
 
-1. **Methodology: learn from prior work, turn it into experiments, and evaluate the result.**
+1. **Research approach.**
 
-   I began by reviewing related Kaggle competitions involving grammar and language-quality scoring to understand successful approaches and their limitations. I then studied arXiv research on audio processing and transformer representations, looking for ideas applicable to spoken grammar assessment. These findings guided a documented experiment plan: establish a simple baseline, compare transcription methods, explore text and audio representations, and combine complementary models. I used grouped cross-validation, RMSE, and error analysis to assess each iteration, while distinguishing improvements in public leaderboard performance from evidence of broader generalization.
+   I first reviewed related Kaggle grammar and language-scoring competitions to learn what worked and where the approaches struggled. I then read arXiv papers on audio processing and transformer representations. From this research, I built an experiment plan: start with a simple baseline, compare transcription methods, test text and audio features, and combine models with different strengths. I recorded the results and used validation scores and error analysis to guide each next step.
 
    **Related Kaggle problems → audio research → documented hypotheses → experiments → error analysis**
 
-   The assessment uses one grammar score on the original **0–5 scale**. Related essay-scoring tasks helped inform the text experiments; audio research guided the speech representations. Their inputs, targets, and validation settings differ, so I treated their findings as hypotheses to test on SHL.
+   The target is one grammar score on a **0–5 scale**. Earlier essay-scoring work informed the text experiments; audio research informed the speech features. Because those tasks use different inputs and targets, I tested the ideas on SHL before drawing conclusions.
 
    | Research question | How it shaped an experiment | What the evidence showed |
    |---|---|---|
-   | What transfers from earlier language-scoring competitions? | Explore contextual DeBERTa representations and pooling diversity, informed by the saved Feedback Prize example | The resulting text models provided a starting point; source and audio errors motivated multimodal work |
-   | Is the final speech-transformer layer the only useful representation? | Combine intermediate/final layer mean and standard-deviation features from WavLM, HuBERT, and wav2vec2 | These features entered the multimodal pipeline; a final-only ablation is still needed to isolate their contribution |
-   | Does better transcription automatically improve grammar scoring? | Compare Small and Large-v3 transcripts with the same TF-IDF/Ridge configuration and folds | Larger ASR improved public RMSE but worsened local RMSE; the result was mixed |
-   | Can combining models resolve their remaining errors? | Compare regularized ensembles and inspect shared residuals | Some ensembles improved public RMSE, while adding more models did not reliably help |
+   | What transfers from earlier language-scoring competitions? | Test DeBERTa text features and different ways to summarize its output, inspired by the saved Feedback Prize example | Text models gave a starting point; their errors motivated adding audio |
+   | Is the final speech-transformer layer the only useful representation? | Combine middle- and final-layer features from WavLM, HuBERT, and wav2vec2 | Used in the audio branch; a controlled comparison with final-layer-only features is still needed |
+   | Does better transcription automatically improve grammar scoring? | Change Whisper Small to Large-v3 while keeping the scoring model and folds fixed | Public RMSE improved, but local RMSE worsened |
+   | Can combining models resolve their remaining errors? | Test regularized combinations and examine shared errors | Some combinations helped; adding models did not reliably help |
 
    Follow the [research journey](docs/RESEARCH.md), [annotated references](docs/REFERENCES.md), and [what worked / what did not](docs/WHAT_WORKED.md) for the reasoning and recorded results.
 
-2. **Results, with the evaluation setting attached.** Public leaderboard results below are recorded observations from the experiment archive, not current rankings or private-test results.
+2. **Results and how they were measured.** These are saved experiment results. Public scores refer to the leaderboard at the time of submission.
 
    | Approach | Local evaluation | Recorded public RMSE |
    |---|---:|---:|
    | Whisper Small + word/character TF-IDF + Ridge | 1.11795, six-fold pooled OOF | 0.6607 |
    | Whisper Large-v3 + the same Ridge pipeline | 1.12624, six-fold pooled OOF | 0.6522 |
    | DeBERTa + pooled speech features + AST | 0.49524, three-fold grouped pooled OOF | 0.3318, full-data refit |
-   | Elastic Net prediction ensemble | 0.48560, meta-development | 0.3204 |
-   | Smooth quadratic prediction ensemble | 0.48128, meta-development | 0.3169 |
-   | 11-model quadratic/kernel ensemble | 0.47893, meta-development | 0.3166 |
-   | Experimental hurdle/joint blend | 0.47759, meta-development | **0.3141** |
+   | Elastic Net prediction ensemble | 0.48560, ensemble development | 0.3204 |
+   | Smooth quadratic prediction ensemble | 0.48128, ensemble development | 0.3169 |
+   | 11-model quadratic/kernel ensemble | 0.47893, ensemble development | 0.3166 |
+   | Experimental hurdle/joint blend | 0.47759, ensemble development | **0.3141** |
 
    > [!IMPORTANT]
    > **Recorded public result: 0.3141 RMSE · 5th place** at the saved 15 October 2026 snapshot. This is the lowest observed public RMSE in my records; private performance is unknown.
 
-   I do **not** treat it as my strongest evidence of generalization: it explicitly models the zero/nonzero distinction in a dataset with unusual zero-labelled examples, and its final mixture was selected using public feedback. The private score is unknown. The non-hurdle ensemble is retained as an important comparison. Local and public scores evaluate different populations; early six-fold baselines and later grouped three-fold experiments also use different protocols.
+   **How to read the local scores:** out-of-fold (OOF) predictions come from base models that held out the recording being scored. Pooled RMSE combines errors across all folds. Ensemble-development scores evaluate the model-combination stage using saved base OOF predictions, with the limitations noted above. The early baselines use six folds; later neural experiments use three grouped folds. Local and public scores come from different evaluation sets.
+
+   **Why the best public score needs caution:** the hurdle model separates zero from positive scores, and the zero-labelled recordings have unusual noise/source patterns. It may learn a pattern specific to this dataset. I therefore retain the earlier non-hurdle ensemble as a comparison and do not claim that the 0.3141 result will generalize best to new speakers or recording conditions.
 
 3. **The pipeline at a glance.**
 
    ![Multimodal architecture and experimental ensemble](docs/assets/architecture.svg)
 
-   The strongest audited individual model combines Whisper Large-v3 transcripts encoded by DeBERTa-v3-large, 11 pooled speech-encoder channels processed by a gated MLP, and full-recording log-mel spectrograms encoded by an AudioSet-pretrained AST. A bounded regression head predicts the grammar score. The gated MLP operates on continuous features; it is distinct from the later experimental zero/nonzero hurdle model.
+   The audited AST model combines three views of each recording:
+
+   | Branch | Input and role |
+   |---|---|
+   | Text | Whisper Large-v3 transcribes the speech; DeBERTa-v3-large encodes the words in context |
+   | Speech features | WavLM, HuBERT, and wav2vec2 supply 11 layer summaries; a gated neural network combines them |
+   | Spectrogram | An Audio Spectrogram Transformer (AST), pretrained on AudioSet, processes a time–frequency view of the full recording |
+
+   The three outputs feed a regression head that predicts a score between 0 and 5. The audio network's feature gates and the later ensemble's zero/nonzero gate serve different purposes. The [architecture guide](docs/ARCHITECTURE.md) gives the dimensions and training settings.
 
 4. **The decisions that mattered.**
 
-   1. Establish a cheap baseline before spending GPU time. Larger ASR changed the words substantially but did not consistently improve downstream validation.
-   2. Preserve grammatical mistakes, repetitions, and disfluencies. Correcting the transcript could erase the signal the task asks us to measure.
-   3. Investigate source relationships before trusting random splits. Related clean/noisy recordings motivated source grouping; subsequently discovered relationships also exposed limits in frozen folds.
-   4. Combine complementary representations rather than relying only on transcript quality. Text describes what was said; speech features and spectrograms retain different aspects of how it was produced.
-   5. Study the errors before enlarging the system. A small subset contributed a large fraction of squared error, and strong models often shared the same misses.
-   6. Evaluate ensemble diversity and regularization. More models and more flexible search did not reliably produce better results.
-   7. Separate leaderboard progress from generalization. A zero-case correction can improve this benchmark while depending on a dataset-specific pattern. That distinction is part of the result, not an inconvenience to hide.
+   1. Start with a cheap baseline. Larger speech-recognition models did not consistently improve scoring.
+   2. Preserve grammar errors, repetitions, and hesitations. Correcting the transcript could remove useful scoring information.
+   3. Check related recordings before choosing validation splits. Keep known clean/noisy pairs together and document pairs discovered later.
+   4. Combine different views of speech. Text captures the words; audio features retain information the transcript misses.
+   5. Review errors before adding complexity. A small set of recordings caused much of the error, and strong models shared many misses.
+   6. Test whether models add useful differences. More models and wider searches did not reliably improve the result.
+   7. Report leaderboard gains and generalization limits together. A dataset-specific correction may improve this benchmark without transferring to new data.
 
-5. **Read the technical account.**
+5. **Explore the research.**
 
    | Document | What it explains |
    |---|---|
@@ -77,7 +89,7 @@
    | [Error analysis](docs/ERROR_ANALYSIS.md) | Error concentration, score slices, ASR failures, calibration, controlled next steps |
    | [Reproduction guide](docs/REPRODUCING.md) | Environments, private inputs, training entry point, final prediction reconstruction |
 
-6. **Evidence in pictures.**
+6. **Results in pictures.**
 
    ![Local and public scores](docs/assets/score_comparison.svg)
 
@@ -85,7 +97,7 @@
 
    More diagnostic figures and their interpretation are in the [visual results gallery](docs/RESULTS.md).
 
-7. **Code map.**
+7. **Find the code.**
 
    | Location | Purpose |
    |---|---|
@@ -99,9 +111,9 @@
    | `experiments/source_snapshots/` | Recovered per-run implementations, mapped by `reports/run_sources.json` |
    | `configs/`, `reports/` | Audited settings, model-level summaries, selected meta-model fits, and source hashes |
 
-8. **Reproducibility and scope.** Competition audio, labels, transcripts, per-record predictions, feature stores, checkpoints, credentials, and infrastructure access details are excluded from the public export. Authorized reviewers need the private competition inputs and recorded prediction exports to reproduce the exact submission. Notebook outputs are cleared. The [source manifest](reports/source_manifest.json) identifies recovered source snapshots and any publication edits. Historical research scripts preserve their original workspace conventions; the reproduction guide explains these dependencies rather than implying every script runs from an empty clone.
+8. **Reproducibility and scope.** The public repository contains code, settings, aggregate results, and source hashes. Competition data, transcripts, individual predictions, model weights, and credentials remain private. Authorized reviewers need the original inputs and saved prediction exports to reproduce the submission. Public notebook outputs are cleared. The [source manifest](reports/source_manifest.json) records the code versions and publication edits. Some older research scripts expect the original folder layout; the reproduction guide explains those dependencies.
 
-9. **AI assistance.** AI tools assisted implementation, experiment analysis, and preparation of this account. The modelling choices, recorded results, evaluation limitations, and distinction between benchmark optimization and generalization are documented explicitly so that the approach can be inspected and discussed.
+9. **AI assistance.** AI tools helped with implementation, analysis, and documentation. The repository records the modelling choices, evidence, and limitations so that reviewers can inspect the work and discuss the reasoning.
 
 10. **Training hardware.**
 
@@ -112,7 +124,7 @@
     | Audited AST fusion and CNN-large runs | NVIDIA GeForce RTX 5090, on Vast.ai | Per-fold hardware recorded in run exports |
     | TF-IDF baselines and final prediction-level ensembles | CPU | No GPU required once transcripts/base predictions are available |
 
-    The audited AST run used BF16, gradient checkpointing, train/eval microbatches 8/16, and accumulation 2 for effective batch 16. Automatic probes selected feasible batch sizes. [Per-run GPU and software records](reports/training_hardware.json) distinguish actual hardware from selectable notebook accelerators. Exact wall-clock costs and a complete machine specification are not reconstructed from missing records.
+    The audited AST run used BF16 precision and gradient checkpointing to manage memory. Training/evaluation batches were 8/16; accumulating two training batches gave an effective batch size of 16. GPU probes checked which batch sizes fit. See the [recorded GPU and software versions](reports/training_hardware.json). Complete timing, cost, and machine specifications were not retained.
 
 11. **Re-create the pipeline.**
 
@@ -134,4 +146,4 @@
 
 12. **References and research motivation.**
 
-    The [annotated research references](docs/REFERENCES.md) connect intermediate-layer speech features, DeBERTa pooling, WavLM/HuBERT/wav2vec2, AST, ASR failure analysis, and grouped stacking to the corresponding design choices. They also document the prior Feedback Prize inference example recorded in the experiment memo. The citations support the hypotheses; the experiment tables report what actually happened on this task.
+    The [annotated references](docs/REFERENCES.md) explain how layer-wise speech research, DeBERTa, the speech backbones, AST, and validation literature informed the experiments. They also describe the earlier Feedback Prize example. Each reference is connected to a design choice, with completed experiments separated from ideas still awaiting a test.
