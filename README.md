@@ -3,9 +3,9 @@
 ![Recorded rank, public RMSE, and training-data development RMSE](docs/assets/results_card.svg)
 
 **Training-data evaluation RMSE: 0.477589*** · **3 grouped folds** · **769 labelled recordings**  
-**Recorded public leaderboard RMSE: 0.3141 · Recorded public rank: 5th**
+**Recorded public leaderboard RMSE: 0.2962 · Recorded public rank: 1st**
 
-**Write-up updated: 15 October 2026 at 23:19 BST (22:19 UTC).** The rank refers to the saved 15 October leaderboard snapshot; its exact capture time was not retained. This timestamp dates the write-up, not a fresh leaderboard check.
+**Write-up updated: 19 October 2026 at 14:35 BST .** The rank refers to the saved 19 October leaderboard snapshot; its exact capture time was not retained. This timestamp dates the write-up, not a fresh leaderboard check.
 
 > [!NOTE]
 > **About the training-data score.** The training-data RMSE combines the final ensemble's evaluation predictions across all three folds. It is one error measure over all 769 labelled recordings. The average of the three fold RMSEs is slightly different: **0.477121**.
